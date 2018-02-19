@@ -1,0 +1,2660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" version="1" level="2">
+<model id="OTA" name="Generated from BioCyc Pathway/Genome Database">
+<listOfUnitDefinitions>
+	<unitDefinition id="mmol_per_gDW_per_hr">
+		<listOfUnits>
+			<unit kind="mole" scale="-3"/>
+			<unit kind="gram" exponent="-1"/>
+			<unit kind="second" multiplier=".00027777" exponent="-1"/>
+		</listOfUnits>
+	</unitDefinition>
+</listOfUnitDefinitions>
+<listOfCompartments>
+  <compartment id="CCO__45__OUT" name="CCO-OUT"/>
+  <compartment id="CCO__45__IN" name="CCO-IN"/>
+  <compartment id="c" name="CCO-CYTOSOL"/>
+</listOfCompartments>
+<listOfSpecies>
+  <species id="D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c" name="D-sedoheptulose-1,7-bisphosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: D-SEDOHEPTULOSE-1-7-P2</p>
+          <p>INCHI: InChI=1S/C7H16O13P2/c8-3(1-19-21(13,14)15)5(10)7(12)6(11)4(9)2-20-22(16,17)18/h3,5-8,10-12H,1-2H2,(H2,13,14,15)(H2,16,17,18)/p-4/t3-,5-,6-,7-/m1/s1</p>
+          <p>CHEBI: 58335</p>
+          <p>HMDB: HMDB60274</p>
+          <p>PUBCHEM: 46878435</p>
+          <p>METABOLIGHTS: MTBLC58335</p>
+          <p>KEGG: C00447</p>
+          <p>FORMULA: C7H12O13P2</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="RIBOSE__45__5P_c" name="D-ribose 5-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RIBOSE-5P</p>
+          <p>INCHI: InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h1,3-5,7-9H,2H2,(H2,10,11,12)/p-2/t3-,4+,5-/m0/s1</p>
+          <p>CHEBI: 78346</p>
+          <p>HMDB: HMDB01548</p>
+          <p>PUBCHEM: 24794349</p>
+          <p>CAS: 4300-28-1</p>
+          <p>KEGG: C00117</p>
+          <p>FORMULA: C5H9O8P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="XYLULOSE__45__5__45__PHOSPHATE_c" name="D-xylulose 5-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: XYLULOSE-5-PHOSPHATE</p>
+          <p>INCHI: InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5-/m1/s1</p>
+          <p>CHEBI: 57737</p>
+          <p>HMDB: HMDB00868</p>
+          <p>CHEMSPIDER: 20015725</p>
+          <p>PUBCHEM: 5459820</p>
+          <p>CAS: 60802-29-1</p>
+          <p>METABOLIGHTS: MTBLC57737</p>
+          <p>KEGG: C00231</p>
+          <p>FORMULA: C5H9O8P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="D__45__RIBULOSE__45__15__45__P2_c" name="D-ribulose-1,5-bisphosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: D-RIBULOSE-15-P2</p>
+          <p>INCHI: InChI=1S/C5H12O11P2/c6-3(1-15-17(9,10)11)5(8)4(7)2-16-18(12,13)14/h3,5-6,8H,1-2H2,(H2,9,10,11)(H2,12,13,14)/p-4/t3-,5-/m1/s1</p>
+          <p>CHEBI: 57870</p>
+          <p>CHEMSPIDER: 3541504</p>
+          <p>PUBCHEM: 23615473</p>
+          <p>CAS: 14689-84-0</p>
+          <p>KEGG: C01182</p>
+          <p>FORMULA: C5H8O11P2</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CTP_c" name="CTP" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CTP</p>
+          <p>INCHI: InChI=1S/C9H16N3O14P3/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(24-8)3-23-28(19,20)26-29(21,22)25-27(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H,21,22)(H2,10,11,15)(H2,16,17,18)/p-4/t4-,6-,7-,8-/m1/s1</p>
+          <p>CHEBI: 37563</p>
+          <p>HMDB: HMDB00082</p>
+          <p>CHEMSPIDER: 5414498</p>
+          <p>PUBCHEM: 7058166</p>
+          <p>CAS: 65-47-4</p>
+          <p>METABOLIGHTS: MTBLC37563</p>
+          <p>KEGG: C00063</p>
+          <p>FORMULA: C9H12N3O14P3</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CDP_c" name="CDP" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CDP</p>
+          <p>INCHI: InChI=1S/C9H15N3O11P2/c10-5-1-2-12(9(15)11-5)8-7(14)6(13)4(22-8)3-21-25(19,20)23-24(16,17)18/h1-2,4,6-8,13-14H,3H2,(H,19,20)(H2,10,11,15)(H2,16,17,18)/p-3/t4-,6-,7-,8-/m1/s1</p>
+          <p>CHEBI: 58069</p>
+          <p>HMDB: HMDB01546</p>
+          <p>CHEMSPIDER: 16740259</p>
+          <p>PUBCHEM: 20056867</p>
+          <p>CAS: 63-38-7</p>
+          <p>METABOLIGHTS: MTBLC58069</p>
+          <p>KEGG: C00112</p>
+          <p>FORMULA: C9H12N3O11P2</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ACYL__45__COA_c" name="an acyl-CoA" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ACYL-COA</p>
+          <p>CHEBI: 17984</p>
+          <p>KEGG: C00040</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PHOSPHATIDYLCHOLINE_c" name="a phosphatidylcholine" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PHOSPHATIDYLCHOLINE</p>
+          <p>CAS: 8002-43-5</p>
+          <p>KEGG: C00157</p>
+        </body>
+      </notes>
+  </species>
+  <species id="_2__45__Lysophosphatidylcholines_c" name="a 1-acyl-sn-glycero-3-phosphocholine" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |2-Lysophosphatidylcholines|</p>
+          <p>CHEBI: 17504</p>
+          <p>KEGG: C04230</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Long__45__Chain__45__Acyl__45__CoAs_c" name="a long-chain acyl-CoA" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Long-Chain-Acyl-CoAs|</p>
+          <p>CHEBI: 33184</p>
+          <p>KEGG: C02843</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ACYL__45__SN__45__GLYCEROL__45__3P_c" name="a 1-acyl-sn-glycerol 3-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ACYL-SN-GLYCEROL-3P</p>
+          <p>CHEBI: 16975</p>
+          <p>KEGG: C00681</p>
+        </body>
+      </notes>
+  </species>
+  <species id="L__45__PHOSPHATIDATE_c" name="a 1,2-diacyl-sn-glycerol 3-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: L-PHOSPHATIDATE</p>
+          <p>CHEBI: 29089</p>
+          <p>KEGG: C00416</p>
+        </body>
+      </notes>
+  </species>
+  <species id="DIACYLGLYCEROL_c" name="a 1,2-diacyl-sn-glycerol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: DIACYLGLYCEROL</p>
+          <p>CHEBI: 17815</p>
+          <p>KEGG: C00641</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Triacylglycerols_c" name="a triacyl-sn-glycerol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Triacylglycerols|</p>
+          <p>CHEBI: 64615</p>
+          <p>KEGG: C00422</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CPD__45__409_c" name="a 2-acylglycerol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CPD-409</p>
+          <p>CHEBI: 17389</p>
+          <p>KEGG: C02112</p>
+        </body>
+      </notes>
+  </species>
+  <species id="GLYCEROL__45__3P_CCO__45__IN" name="sn-glycerol 3-phosphate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: GLYCEROL-3P</p>
+          <p>INCHI: InChI=1S/C3H9O6P/c4-1-3(5)2-9-10(6,7)8/h3-5H,1-2H2,(H2,6,7,8)/p-2/t3-/m1/s1</p>
+          <p>CHEBI: 57597</p>
+          <p>HMDB: HMDB00126</p>
+          <p>CHEMSPIDER: 2939444</p>
+          <p>PUBCHEM: 7048686</p>
+          <p>CAS: 57-03-4</p>
+          <p>METABOLIGHTS: MTBLC57597</p>
+          <p>KEGG: C00093</p>
+          <p>FORMULA: C3H7O6P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="DIHYDROXY__45__ACETONE__45__PHOSPHATE_CCO__45__IN" name="glycerone phosphate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: DIHYDROXY-ACETONE-PHOSPHATE</p>
+          <p>INCHI: InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h4H,1-2H2,(H2,6,7,8)/p-2</p>
+          <p>CHEBI: 57642</p>
+          <p>HMDB: HMDB01473</p>
+          <p>CHEMSPIDER: 3833110</p>
+          <p>PUBCHEM: 4643300</p>
+          <p>CAS: 57-04-5</p>
+          <p>METABOLIGHTS: MTBLC57642</p>
+          <p>KEGG: C00111</p>
+          <p>FORMULA: C3H5O6P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="GLYCEROL__45__3P_c" name="sn-glycerol 3-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: GLYCEROL-3P</p>
+          <p>INCHI: InChI=1S/C3H9O6P/c4-1-3(5)2-9-10(6,7)8/h3-5H,1-2H2,(H2,6,7,8)/p-2/t3-/m1/s1</p>
+          <p>CHEBI: 57597</p>
+          <p>HMDB: HMDB00126</p>
+          <p>CHEMSPIDER: 2939444</p>
+          <p>PUBCHEM: 7048686</p>
+          <p>CAS: 57-03-4</p>
+          <p>METABOLIGHTS: MTBLC57597</p>
+          <p>KEGG: C00093</p>
+          <p>FORMULA: C3H7O6P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" name="glycerone phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: DIHYDROXY-ACETONE-PHOSPHATE</p>
+          <p>INCHI: InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h4H,1-2H2,(H2,6,7,8)/p-2</p>
+          <p>CHEBI: 57642</p>
+          <p>HMDB: HMDB01473</p>
+          <p>CHEMSPIDER: 3833110</p>
+          <p>PUBCHEM: 4643300</p>
+          <p>CAS: 57-04-5</p>
+          <p>METABOLIGHTS: MTBLC57642</p>
+          <p>KEGG: C00111</p>
+          <p>FORMULA: C3H5O6P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="AMP_c" name="AMP" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: AMP</p>
+          <p>INCHI: InChI=1S/C10H14N5O7P/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(22-10)1-21-23(18,19)20/h2-4,6-7,10,16-17H,1H2,(H2,11,12,13)(H2,18,19,20)/p-2/t4-,6-,7-,10-/m1/s1</p>
+          <p>CHEBI: 456215</p>
+          <p>HMDB: HMDB00045</p>
+          <p>CHEMSPIDER: 10239183</p>
+          <p>PUBCHEM: 15938965</p>
+          <p>NCI: 20264</p>
+          <p>CAS: 61-19-8</p>
+          <p>METABOLIGHTS: MTBLC456215</p>
+          <p>KEGG: C00020</p>
+          <p>FORMULA: C10H12N5O7P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="DPG_c" name="3-phospho-D-glyceroyl-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: DPG</p>
+          <p>INCHI: InChI=1S/C3H8O10P2/c4-2(1-12-14(6,7)8)3(5)13-15(9,10)11/h2,4H,1H2,(H2,6,7,8)(H2,9,10,11)/p-4/t2-/m1/s1</p>
+          <p>CHEBI: 57604</p>
+          <p>HMDB: HMDB01270</p>
+          <p>CHEMSPIDER: 19698372</p>
+          <p>PUBCHEM: 46878409</p>
+          <p>CAS: 1981-49-3</p>
+          <p>METABOLIGHTS: MTBLC57604</p>
+          <p>KEGG: C00236</p>
+          <p>FORMULA: C3H4O10P2</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="FRUCTOSE__45__16__45__DIPHOSPHATE_c" name="fructose 1,6-bisphosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: FRUCTOSE-16-DIPHOSPHATE</p>
+          <p>INCHI: InChI=1S/C6H14O12P2/c7-4-3(1-16-19(10,11)12)18-6(9,5(4)8)2-17-20(13,14)15/h3-5,7-9H,1-2H2,(H2,10,11,12)(H2,13,14,15)/p-4/t3-,4-,5+,6-/m1/s1</p>
+          <p>CHEBI: 32966</p>
+          <p>HMDB: HMDB01058</p>
+          <p>CHEMSPIDER: 4574223</p>
+          <p>PUBCHEM: 5460765</p>
+          <p>CAS: 488-69-7</p>
+          <p>KEGG: C00354</p>
+          <p>FORMULA: C6H10O12P2</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PHOSPHO__45__ENOL__45__PYRUVATE_c" name="phosphoenolpyruvate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PHOSPHO-ENOL-PYRUVATE</p>
+          <p>INCHI: InChI=1S/C3H5O6P/c1-2(3(4)5)9-10(6,7)8/h1H2,(H,4,5)(H2,6,7,8)/p-3</p>
+          <p>CHEBI: 58702</p>
+          <p>HMDB: HMDB00263</p>
+          <p>CHEMSPIDER: 2907208</p>
+          <p>PUBCHEM: 3674425</p>
+          <p>CAS: 138-08-9</p>
+          <p>KEGG: C00074</p>
+          <p>FORMULA: C3H2O6P</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="_2__45__PG_c" name="2-phospho-D-glycerate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 2-PG</p>
+          <p>INCHI: InChI=1S/C3H7O7P/c4-1-2(3(5)6)10-11(7,8)9/h2,4H,1H2,(H,5,6)(H2,7,8,9)/p-3/t2-/m1/s1</p>
+          <p>CHEBI: 58289</p>
+          <p>HMDB: HMDB03391</p>
+          <p>PUBCHEM: 40467846</p>
+          <p>CAS: 2553-59-5</p>
+          <p>METABOLIGHTS: MTBLC58289</p>
+          <p>KEGG: C00631</p>
+          <p>FORMULA: C3H4O7P</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="G3P_c" name="3-phospho-D-glycerate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: G3P</p>
+          <p>INCHI: InChI=1S/C3H7O7P/c4-2(3(5)6)1-10-11(7,8)9/h2,4H,1H2,(H,5,6)(H2,7,8,9)/p-3/t2-/m1/s1</p>
+          <p>CHEBI: 58272</p>
+          <p>HMDB: HMDB60180</p>
+          <p>PUBCHEM: 25245548</p>
+          <p>CAS: 820-11-1</p>
+          <p>METABOLIGHTS: MTBLC58272</p>
+          <p>KEGG: C00197</p>
+          <p>FORMULA: C3H4O7P</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="D__45__glucopyranose__45__6__45__phosphate_c" name="D-glucopyranose 6-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |D-glucopyranose-6-phosphate|</p>
+          <p>CHEBI: 4170</p>
+          <p>KEGG: C00092</p>
+          <p>FORMULA: C6H11O9P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NADP_c" name="NADP+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NADP</p>
+          <p>INCHI: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 58349</p>
+          <p>HMDB: HMDB00217</p>
+          <p>CHEMSPIDER: 10239198</p>
+          <p>PUBCHEM: 15938972</p>
+          <p>CAS: 53-59-8</p>
+          <p>METABOLIGHTS: MTBLC58349</p>
+          <p>KEGG: C00006</p>
+          <p>FORMULA: C21H25N7O17P3</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="RIBULOSE__45__5P_c" name="D-ribulose 5-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RIBULOSE-5P</p>
+          <p>INCHI: InChI=1S/C5H11O8P/c6-1-3(7)5(9)4(8)2-13-14(10,11)12/h4-6,8-9H,1-2H2,(H2,10,11,12)/p-2/t4-,5+/m1/s1</p>
+          <p>CHEBI: 58121</p>
+          <p>HMDB: HMDB00618</p>
+          <p>CHEMSPIDER: 20015724</p>
+          <p>PUBCHEM: 21144996</p>
+          <p>CAS: 4151-19-3</p>
+          <p>METABOLIGHTS: MTBLC58121</p>
+          <p>KEGG: C00199</p>
+          <p>FORMULA: C5H9O8P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NADPH_c" name="NADPH" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NADPH</p>
+          <p>INCHI: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 57783</p>
+          <p>HMDB: HMDB00221</p>
+          <p>CHEMSPIDER: 10239199</p>
+          <p>PUBCHEM: 15983949</p>
+          <p>CAS: 2646-71-1</p>
+          <p>METABOLIGHTS: MTBLC57783</p>
+          <p>KEGG: C00005</p>
+          <p>FORMULA: C21H26N7O17P3</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="D__45__6__45__P__45__GLUCONO__45__DELTA__45__LACTONE_c" name="6-phospho D-glucono-1,5-lactone" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: D-6-P-GLUCONO-DELTA-LACTONE</p>
+          <p>INCHI: InChI=1S/C6H11O9P/c7-3-2(1-14-16(11,12)13)15-6(10)5(9)4(3)8/h2-5,7-9H,1H2,(H2,11,12,13)/p-2/t2-,3-,4+,5-/m1/s1</p>
+          <p>CHEBI: 57955</p>
+          <p>HMDB: HMDB01127</p>
+          <p>PUBCHEM: 46926335</p>
+          <p>CAS: 2641-81-8</p>
+          <p>METABOLIGHTS: MTBLC57955</p>
+          <p>KEGG: C01236</p>
+          <p>FORMULA: C6H9O9P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CPD__45__2961_c" name="D-gluconate 6-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CPD-2961</p>
+          <p>INCHI: InChI=1S/C6H13O10P/c7-2(1-16-17(13,14)15)3(8)4(9)5(10)6(11)12/h2-5,7-10H,1H2,(H,11,12)(H2,13,14,15)/p-3/t2-,3-,4+,5-/m1/s1</p>
+          <p>CHEBI: 58759</p>
+          <p>HMDB: HMDB01316</p>
+          <p>PUBCHEM: 36688186</p>
+          <p>METABOLIGHTS: MTBLC58759</p>
+          <p>KEGG: C00345</p>
+          <p>FORMULA: C6H10O10P</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="D__45__SEDOHEPTULOSE__45__7__45__P_c" name="D-sedoheptulose 7-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: D-SEDOHEPTULOSE-7-P</p>
+          <p>INCHI: InChI=1S/C7H15O10P/c8-1-3(9)5(11)7(13)6(12)4(10)2-17-18(14,15)16/h4-8,10-13H,1-2H2,(H2,14,15,16)/p-2/t4-,5-,6-,7+/m1/s1</p>
+          <p>CHEBI: 57483</p>
+          <p>HMDB: HMDB01068</p>
+          <p>PUBCHEM: 46878379</p>
+          <p>CAS: 2646-35-7</p>
+          <p>METABOLIGHTS: MTBLC57483</p>
+          <p>KEGG: C05382</p>
+          <p>FORMULA: C7H13O10P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="GAP_c" name="D-glyceraldehyde 3-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: GAP</p>
+          <p>INCHI: InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h1,3,5H,2H2,(H2,6,7,8)/p-2/t3-/m0/s1</p>
+          <p>CHEBI: 59776</p>
+          <p>HMDB: HMDB01112</p>
+          <p>PUBCHEM: 24794350</p>
+          <p>CAS: 591-57-1</p>
+          <p>KEGG: C00118</p>
+          <p>FORMULA: C3H5O6P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="FRUCTOSE__45__6P_c" name="beta-D-fructofuranose 6-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: FRUCTOSE-6P</p>
+          <p>INCHI: InChI=1S/C6H13O9P/c7-2-6(10)5(9)4(8)3(15-6)1-14-16(11,12)13/h3-5,7-10H,1-2H2,(H2,11,12,13)/p-2/t3-,4-,5+,6-/m1/s1</p>
+          <p>CHEBI: 57634</p>
+          <p>CHEMSPIDER: 10239172</p>
+          <p>PUBCHEM: 21604863</p>
+          <p>CAS: 643-13-0</p>
+          <p>FORMULA: C6H11O9P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ERYTHROSE__45__4P_c" name="D-erythrose 4-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ERYTHROSE-4P</p>
+          <p>INCHI: InChI=1S/C4H9O7P/c5-1-3(6)4(7)2-11-12(8,9)10/h1,3-4,6-7H,2H2,(H2,8,9,10)/p-2/t3-,4+/m0/s1</p>
+          <p>CHEBI: 16897</p>
+          <p>HMDB: HMDB01321</p>
+          <p>CHEMSPIDER: 4573609</p>
+          <p>PUBCHEM: 5459862</p>
+          <p>CAS: 585-18-2</p>
+          <p>METABOLIGHTS: MTBLC16897</p>
+          <p>KEGG: C00279</p>
+          <p>FORMULA: C4H7O7P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Oxidized__45__Plastocyanins_CCO__45__IN" name="an oxidized plastocyanin" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Oxidized-Plastocyanins|</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Plastocyanin__45__Reduced_CCO__45__IN" name="a reduced plastocyanin" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Plastocyanin-Reduced|</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Reduced__45__ferredoxins_CCO__45__OUT" name="a reduced ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Reduced-ferredoxins|</p>
+          <p>KEGG: C00138</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NADP_CCO__45__IN" name="NADP+" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NADP</p>
+          <p>INCHI: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 58349</p>
+          <p>HMDB: HMDB00217</p>
+          <p>CHEMSPIDER: 10239198</p>
+          <p>PUBCHEM: 15938972</p>
+          <p>CAS: 53-59-8</p>
+          <p>METABOLIGHTS: MTBLC58349</p>
+          <p>KEGG: C00006</p>
+          <p>FORMULA: C21H25N7O17P3</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Oxidized__45__ferredoxins_CCO__45__OUT" name="an oxidized ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Oxidized-ferredoxins|</p>
+          <p>KEGG: C00139</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NADPH_CCO__45__IN" name="NADPH" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NADPH</p>
+          <p>INCHI: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 57783</p>
+          <p>HMDB: HMDB00221</p>
+          <p>CHEMSPIDER: 10239199</p>
+          <p>PUBCHEM: 15983949</p>
+          <p>CAS: 2646-71-1</p>
+          <p>METABOLIGHTS: MTBLC57783</p>
+          <p>KEGG: C00005</p>
+          <p>FORMULA: C21H26N7O17P3</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Plastoquinols_c" name="a plastoquinol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Plastoquinols|</p>
+          <p>INCHI: InChI=1S/C53H82O2/c1-40(2)21-13-22-41(3)23-14-24-42(4)25-15-26-43(5)27-16-28-44(6)29-17-30-45(7)31-18-32-46(8)33-19-34-47(9)35-20-36-48(10)37-38-51-39-52(54)49(11)50(12)53(51)55/h21,23,25,27,29,31,33,35,37,39,54-55H,13-20,22,24,26,28,30,32,34,36,38H2,1-12H3/b41-23+,42-25+,43-27+,44-29+,45-31+,46-33+,47-35+,48-37+</p>
+          <p>FORMULA: C53H82O2</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PROTON_CCO__45__IN" name="H+" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PROTON</p>
+          <p>INCHI: InChI=1S/p+1</p>
+          <p>CHEBI: 15378</p>
+          <p>HMDB: HMDB59597</p>
+          <p>CHEMSPIDER: 1010</p>
+          <p>PUBCHEM: 1038</p>
+          <p>CAS: 12408-02-5</p>
+          <p>KEGG: C00080</p>
+          <p>FORMULA: H</p>
+          <p>CHARGE: 1</p>
+        </body>
+      </notes>
+  </species>
+  <species id="OXYGEN__45__MOLECULE_CCO__45__IN" name="oxygen" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: OXYGEN-MOLECULE</p>
+          <p>INCHI: InChI=1S/O2/c1-2</p>
+          <p>CHEBI: 15379</p>
+          <p>HMDB: HMDB01377</p>
+          <p>CHEMSPIDER: 952</p>
+          <p>PUBCHEM: 977</p>
+          <p>CAS: 7782-44-7</p>
+          <p>METABOLIGHTS: MTBLC15379</p>
+          <p>KEGG: C00007</p>
+          <p>FORMULA: O2</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Light_c" name="hnu" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Light|</p>
+          <p>KEGG: C00205</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PLASTOQUINONE_c" name="a plastoquinone" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PLASTOQUINONE</p>
+          <p>INCHI: InChI=1S/C53H80O2/c1-40(2)21-13-22-41(3)23-14-24-42(4)25-15-26-43(5)27-16-28-44(6)29-17-30-45(7)31-18-32-46(8)33-19-34-47(9)35-20-36-48(10)37-38-51-39-52(54)49(11)50(12)53(51)55/h21,23,25,27,29,31,33,35,37,39H,13-20,22,24,26,28,30,32,34,36,38H2,1-12H3/b41-23+,42-25+,43-27+,44-29+,45-31+,46-33+,47-35+,48-37+</p>
+          <p>FORMULA: C53H80O2</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PROTON_CCO__45__OUT" name="H+" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PROTON</p>
+          <p>INCHI: InChI=1S/p+1</p>
+          <p>CHEBI: 15378</p>
+          <p>HMDB: HMDB59597</p>
+          <p>CHEMSPIDER: 1010</p>
+          <p>PUBCHEM: 1038</p>
+          <p>CAS: 12408-02-5</p>
+          <p>KEGG: C00080</p>
+          <p>FORMULA: H</p>
+          <p>CHARGE: 1</p>
+        </body>
+      </notes>
+  </species>
+  <species id="WATER_CCO__45__IN" name="H2O" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: WATER</p>
+          <p>INCHI: InChI=1S/H2O/h1H2</p>
+          <p>CHEBI: 15377</p>
+          <p>HMDB: HMDB02111</p>
+          <p>CHEMSPIDER: 937</p>
+          <p>PUBCHEM: 962</p>
+          <p>CAS: 7732-18-5</p>
+          <p>METABOLIGHTS: MTBLC15377</p>
+          <p>KEGG: C00001</p>
+          <p>FORMULA: H2O</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PYRUVATE_c" name="pyruvate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PYRUVATE</p>
+          <p>INCHI: InChI=1S/C3H4O3/c1-2(4)3(5)6/h1H3,(H,5,6)/p-1</p>
+          <p>CHEBI: 15361</p>
+          <p>HMDB: HMDB00243</p>
+          <p>CHEMSPIDER: 96901</p>
+          <p>PUBCHEM: 107735</p>
+          <p>CAS: 127-17-3</p>
+          <p>KNAPSACK: C00001200</p>
+          <p>METABOLIGHTS: MTBLC15361</p>
+          <p>EAWAG-BBD-CPD: c0159</p>
+          <p>KEGG: C00022</p>
+          <p>FORMULA: C3H3O3</p>
+          <p>CHARGE: -1</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Pyruvate__45__dehydrogenase__45__acetylDHlipoyl_c" name="a [pyruvate dehydrogenase E2 protein] N6-S-acetyldihydrolipoyl-L-lysine" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Pyruvate-dehydrogenase-acetylDHlipoyl|</p>
+          <p>KEGG: C16255</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Pyruvate__45__dehydrogenase__45__dihydrolipoate_c" name="a [pyruvate dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Pyruvate-dehydrogenase-dihydrolipoate|</p>
+          <p>KEGG: C15973</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Pyruvate__45__dehydrogenase__45__lipoate_c" name="a [pyruvate dehydrogenase E2 protein] N6-lipoyl-L-lysine" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Pyruvate-dehydrogenase-lipoate|</p>
+          <p>KEGG: C15972</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ETR__45__Quinones_c" name="an electron-transfer quinone" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |ETR-Quinones|</p>
+        </body>
+      </notes>
+  </species>
+  <species id="SUC_CCO__45__IN" name="succinate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SUC</p>
+          <p>INCHI: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)/p-2</p>
+          <p>CHEBI: 30031</p>
+          <p>HMDB: HMDB00254</p>
+          <p>CHEMSPIDER: 140973</p>
+          <p>PUBCHEM: 160419</p>
+          <p>CAS: 110-15-6</p>
+          <p>KNAPSACK: C00001205</p>
+          <p>METABOLIGHTS: MTBLC30031</p>
+          <p>KEGG: C00042</p>
+          <p>FORMULA: C4H4O4</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ETR__45__Quinols_c" name="an electron-transfer quinol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |ETR-Quinols|</p>
+        </body>
+      </notes>
+  </species>
+  <species id="FUM_CCO__45__IN" name="fumarate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: FUM</p>
+          <p>INCHI: InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)/p-2/b2-1+</p>
+          <p>CHEBI: 29806</p>
+          <p>HMDB: HMDB00134</p>
+          <p>CHEMSPIDER: 4573886</p>
+          <p>PUBCHEM: 5460307</p>
+          <p>DRUGBANK: DB01677</p>
+          <p>CAS: 110-17-8</p>
+          <p>KNAPSACK: C00001183</p>
+          <p>METABOLIGHTS: MTBLC29806</p>
+          <p>KEGG: C00122</p>
+          <p>FORMULA: C4H2O4</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="SUC_c" name="succinate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SUC</p>
+          <p>INCHI: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)/p-2</p>
+          <p>CHEBI: 30031</p>
+          <p>HMDB: HMDB00254</p>
+          <p>CHEMSPIDER: 140973</p>
+          <p>PUBCHEM: 160419</p>
+          <p>CAS: 110-15-6</p>
+          <p>KNAPSACK: C00001205</p>
+          <p>METABOLIGHTS: MTBLC30031</p>
+          <p>KEGG: C00042</p>
+          <p>FORMULA: C4H4O4</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ATP_c" name="ATP" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ATP</p>
+          <p>INCHI: InChI=1S/C10H16N5O13P3/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(26-10)1-25-30(21,22)28-31(23,24)27-29(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H,23,24)(H2,11,12,13)(H2,18,19,20)/p-4/t4-,6-,7-,10-/m1/s1</p>
+          <p>CHEBI: 30616</p>
+          <p>HMDB: HMDB00538</p>
+          <p>CHEMSPIDER: 4574455</p>
+          <p>PUBCHEM: 5461108</p>
+          <p>CAS: 56-65-5</p>
+          <p>METABOLIGHTS: MTBLC30616</p>
+          <p>KEGG: C00002</p>
+          <p>FORMULA: C10H12N5O13P3</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ADP_c" name="ADP" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ADP</p>
+          <p>INCHI: InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/p-3/t4-,6-,7-,10-/m1/s1</p>
+          <p>CHEBI: 456216</p>
+          <p>HMDB: HMDB01341</p>
+          <p>CHEMSPIDER: 5414423</p>
+          <p>PUBCHEM: 7058055</p>
+          <p>CAS: 58-64-0</p>
+          <p>METABOLIGHTS: MTBLC456216</p>
+          <p>KEGG: C00008</p>
+          <p>FORMULA: C10H12N5O10P2</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="Pi_c" name="phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: |Pi|</p>
+          <p>INCHI: InChI=1S/H3O4P/c1-5(2,3)4/h(H3,1,2,3,4)/p-2</p>
+          <p>CHEBI: 43474</p>
+          <p>HMDB: HMDB00973</p>
+          <p>PUBCHEM: 3681305</p>
+          <p>CAS: 14265-44-2</p>
+          <p>KNAPSACK: C00007408</p>
+          <p>METABOLIGHTS: MTBLC43474</p>
+          <p>KEGG: C00009</p>
+          <p>FORMULA: HO4P</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="ACETYL__45__COA_c" name="acetyl-CoA" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ACETYL-COA</p>
+          <p>INCHI: InChI=1S/C23H38N7O17P3S/c1-12(31)51-7-6-25-14(32)4-5-26-21(35)18(34)23(2,3)9-44-50(41,42)47-49(39,40)43-8-13-17(46-48(36,37)38)16(33)22(45-13)30-11-29-15-19(24)27-10-28-20(15)30/h10-11,13,16-18,22,33-34H,4-9H2,1-3H3,(H,25,32)(H,26,35)(H,39,40)(H,41,42)(H2,24,27,28)(H2,36,37,38)/p-4/t13-,16-,17-,18+,22-/m1/s1</p>
+          <p>CHEBI: 57288</p>
+          <p>HMDB: HMDB01206</p>
+          <p>PUBCHEM: 45266541</p>
+          <p>CAS: 72-89-9</p>
+          <p>KNAPSACK: C00007259</p>
+          <p>METABOLIGHTS: MTBLC57288</p>
+          <p>EAWAG-BBD-CPD: c0031</p>
+          <p>KEGG: C00024</p>
+          <p>FORMULA: C23H34N7O17P3S</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CIT_c" name="citrate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CIT</p>
+          <p>INCHI: InChI=1S/C6H8O7/c7-3(8)1-6(13,5(11)12)2-4(9)10/h13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)/p-3</p>
+          <p>CHEBI: 16947</p>
+          <p>HMDB: HMDB00094</p>
+          <p>CHEMSPIDER: 29081</p>
+          <p>PUBCHEM: 31348</p>
+          <p>CAS: 77-92-9</p>
+          <p>KNAPSACK: C00007619</p>
+          <p>METABOLIGHTS: MTBLC16947</p>
+          <p>KEGG: C00158</p>
+          <p>FORMULA: C6H5O7</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CIS__45__ACONITATE_c" name="cis-aconitate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CIS-ACONITATE</p>
+          <p>INCHI: InChI=1S/C6H6O6/c7-4(8)1-3(6(11)12)2-5(9)10/h1H,2H2,(H,7,8)(H,9,10)(H,11,12)/p-3/b3-1-</p>
+          <p>CHEBI: 16383</p>
+          <p>HMDB: HMDB00072</p>
+          <p>CHEMSPIDER: 4573582</p>
+          <p>PUBCHEM: 5459816</p>
+          <p>CAS: 585-84-2</p>
+          <p>KNAPSACK: C00001177</p>
+          <p>METABOLIGHTS: MTBLC16383</p>
+          <p>KEGG: C00417</p>
+          <p>FORMULA: C6H3O6</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="THREO__45__DS__45__ISO__45__CITRATE_c" name="D-threo-isocitrate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: THREO-DS-ISO-CITRATE</p>
+          <p>INCHI: InChI=1S/C6H8O7/c7-3(8)1-2(5(10)11)4(9)6(12)13/h2,4,9H,1H2,(H,7,8)(H,10,11)(H,12,13)/p-3/t2-,4+/m0/s1</p>
+          <p>CHEBI: 15562</p>
+          <p>HMDB: HMDB01874</p>
+          <p>CHEMSPIDER: 4573553</p>
+          <p>PUBCHEM: 5459771</p>
+          <p>CAS: 320-77-4</p>
+          <p>KNAPSACK: C00001188</p>
+          <p>METABOLIGHTS: MTBLC15562</p>
+          <p>KEGG: C00451</p>
+          <p>FORMULA: C6H5O7</p>
+          <p>CHARGE: -3</p>
+        </body>
+      </notes>
+  </species>
+  <species id="_2__45__KETOGLUTARATE_c" name="2-oxoglutarate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 2-KETOGLUTARATE</p>
+          <p>INCHI: InChI=1S/C5H6O5/c6-3(5(9)10)1-2-4(7)8/h1-2H2,(H,7,8)(H,9,10)/p-2</p>
+          <p>CHEBI: 16810</p>
+          <p>HMDB: HMDB00208</p>
+          <p>CHEMSPIDER: 144236</p>
+          <p>PUBCHEM: 164533</p>
+          <p>CAS: 328-50-7</p>
+          <p>KNAPSACK: C00000769</p>
+          <p>METABOLIGHTS: MTBLC16810</p>
+          <p>KEGG: C00026</p>
+          <p>FORMULA: C5H4O5</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CO__45__A_c" name="coenzyme A" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CO-A</p>
+          <p>INCHI: InChI=1S/C21H36N7O16P3S/c1-21(2,16(31)19(32)24-4-3-12(29)23-5-6-48)8-41-47(38,39)44-46(36,37)40-7-11-15(43-45(33,34)35)14(30)20(42-11)28-10-27-13-17(22)25-9-26-18(13)28/h9-11,14-16,20,30-31,48H,3-8H2,1-2H3,(H,23,29)(H,24,32)(H,36,37)(H,38,39)(H2,22,25,26)(H2,33,34,35)/p-4/t11-,14-,15-,16+,20-/m1/s1</p>
+          <p>CHEBI: 57287</p>
+          <p>HMDB: HMDB01423</p>
+          <p>PUBCHEM: 25113190</p>
+          <p>CAS: 85-61-0</p>
+          <p>KNAPSACK: C00007258</p>
+          <p>METABOLIGHTS: MTBLC57287</p>
+          <p>KEGG: C00010</p>
+          <p>FORMULA: C21H32N7O16P3S</p>
+          <p>CHARGE: -4</p>
+        </body>
+      </notes>
+  </species>
+  <species id="SUC__45__COA_c" name="succinyl-CoA" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-5">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SUC-COA</p>
+          <p>INCHI: InChI=1S/C25H40N7O19P3S/c1-25(2,20(38)23(39)28-6-5-14(33)27-7-8-55-16(36)4-3-15(34)35)10-48-54(45,46)51-53(43,44)47-9-13-19(50-52(40,41)42)18(37)24(49-13)32-12-31-17-21(26)29-11-30-22(17)32/h11-13,18-20,24,37-38H,3-10H2,1-2H3,(H,27,33)(H,28,39)(H,34,35)(H,43,44)(H,45,46)(H2,26,29,30)(H2,40,41,42)/p-5/t13-,18-,19-,20+,24-/m1/s1</p>
+          <p>CHEBI: 57292</p>
+          <p>HMDB: HMDB01022</p>
+          <p>PUBCHEM: 45266545</p>
+          <p>CAS: 604-98-8</p>
+          <p>METABOLIGHTS: MTBLC57292</p>
+          <p>KEGG: C00091</p>
+          <p>FORMULA: C25H35N7O19P3S</p>
+          <p>CHARGE: -5</p>
+        </body>
+      </notes>
+  </species>
+  <species id="CARBON__45__DIOXIDE_c" name="CO2" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CARBON-DIOXIDE</p>
+          <p>INCHI: InChI=1S/CO2/c2-1-3</p>
+          <p>CHEBI: 16526</p>
+          <p>HMDB: HMDB01967</p>
+          <p>CHEMSPIDER: 274</p>
+          <p>PUBCHEM: 280</p>
+          <p>CAS: 124-38-9</p>
+          <p>METABOLIGHTS: MTBLC16526</p>
+          <p>EAWAG-BBD-CPD: c0131</p>
+          <p>KEGG: C00011</p>
+          <p>FORMULA: CO2</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NAD_c" name="NAD+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NAD</p>
+          <p>INCHI: InChI=1S/C21H27N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1-4,7-8,10-11,13-16,20-21,29-32H,5-6H2,(H5-,22,23,24,25,33,34,35,36,37)/p-1/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 57540</p>
+          <p>HMDB: HMDB00902</p>
+          <p>CHEMSPIDER: 10239196</p>
+          <p>PUBCHEM: 15938971</p>
+          <p>CAS: 53-84-9</p>
+          <p>METABOLIGHTS: MTBLC57540</p>
+          <p>KEGG: C00003</p>
+          <p>FORMULA: C21H26N7O14P2</p>
+          <p>CHARGE: -1</p>
+        </body>
+      </notes>
+  </species>
+  <species id="PROTON_c" name="H+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="1">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PROTON</p>
+          <p>INCHI: InChI=1S/p+1</p>
+          <p>CHEBI: 15378</p>
+          <p>HMDB: HMDB59597</p>
+          <p>CHEMSPIDER: 1010</p>
+          <p>PUBCHEM: 1038</p>
+          <p>CAS: 12408-02-5</p>
+          <p>KEGG: C00080</p>
+          <p>FORMULA: H</p>
+          <p>CHARGE: 1</p>
+        </body>
+      </notes>
+  </species>
+  <species id="OXALACETIC_ACID_c" name="oxaloacetate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: OXALACETIC_ACID</p>
+          <p>INCHI: InChI=1S/C4H4O5/c5-2(4(8)9)1-3(6)7/h1H2,(H,6,7)(H,8,9)/p-2</p>
+          <p>CHEBI: 16452</p>
+          <p>HMDB: HMDB00223</p>
+          <p>CHEMSPIDER: 144251</p>
+          <p>PUBCHEM: 164550</p>
+          <p>CAS: 328-42-7</p>
+          <p>METABOLIGHTS: MTBLC16452</p>
+          <p>KEGG: C00036</p>
+          <p>FORMULA: C4H2O5</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="NADH_c" name="NADH" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: NADH</p>
+          <p>INCHI: InChI=1S/C21H29N7O14P2/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(32)14(30)11(41-21)6-39-44(36,37)42-43(34,35)38-5-10-13(29)15(31)20(40-10)27-3-1-2-9(4-27)18(23)33/h1,3-4,7-8,10-11,13-16,20-21,29-32H,2,5-6H2,(H2,23,33)(H,34,35)(H,36,37)(H2,22,24,25)/p-2/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
+          <p>CHEBI: 57945</p>
+          <p>HMDB: HMDB01487</p>
+          <p>CHEMSPIDER: 10239197</p>
+          <p>PUBCHEM: 21604869</p>
+          <p>CAS: 58-68-4</p>
+          <p>METABOLIGHTS: MTBLC57945</p>
+          <p>KEGG: C00004</p>
+          <p>FORMULA: C21H27N7O14P2</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="MAL_c" name="(S)-malate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: MAL</p>
+          <p>INCHI: InChI=1S/C4H6O5/c5-2(4(8)9)1-3(6)7/h2,5H,1H2,(H,6,7)(H,8,9)/p-2/t2-/m0/s1</p>
+          <p>CHEBI: 15589</p>
+          <p>HMDB: HMDB00156</p>
+          <p>CHEMSPIDER: 4573566</p>
+          <p>PUBCHEM: 5459792</p>
+          <p>CAS: 6915-15-7</p>
+          <p>METABOLIGHTS: MTBLC15589</p>
+          <p>KEGG: C00149</p>
+          <p>FORMULA: C4H4O5</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="FUM_c" name="fumarate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: FUM</p>
+          <p>INCHI: InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)/p-2/b2-1+</p>
+          <p>CHEBI: 29806</p>
+          <p>HMDB: HMDB00134</p>
+          <p>CHEMSPIDER: 4573886</p>
+          <p>PUBCHEM: 5460307</p>
+          <p>DRUGBANK: DB01677</p>
+          <p>CAS: 110-17-8</p>
+          <p>KNAPSACK: C00001183</p>
+          <p>METABOLIGHTS: MTBLC29806</p>
+          <p>KEGG: C00122</p>
+          <p>FORMULA: C4H2O4</p>
+          <p>CHARGE: -2</p>
+        </body>
+      </notes>
+  </species>
+  <species id="WATER_c" name="H2O" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: WATER</p>
+          <p>INCHI: InChI=1S/H2O/h1H2</p>
+          <p>CHEBI: 15377</p>
+          <p>HMDB: HMDB02111</p>
+          <p>CHEMSPIDER: 937</p>
+          <p>PUBCHEM: 962</p>
+          <p>CAS: 7732-18-5</p>
+          <p>METABOLIGHTS: MTBLC15377</p>
+          <p>KEGG: C00001</p>
+          <p>FORMULA: H2O</p>
+          <p>CHARGE: 0</p>
+        </body>
+      </notes>
+  </species>
+</listOfSpecies>
+<listOfReactions>
+<reaction id="FUMHYDR__45__RXN" name="FUMHYDR-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: FUMHYDR-RXN</p>
+          <p>EC Number: 4.2.1.2</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot10g01390)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="FUM_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="MAL_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="MALATE__45__DEH__45__RXN" name="MALATE-DEH-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: MALATE-DEH-RXN</p>
+          <p>EC Number: 1.1.1.37</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690, PWY-7115, GLUCONEO-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot06g00180) or (Ot06g02460) or (Ot03g00170)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="MAL_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="OXALACETIC_ACID_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_2OXOGLUTARATEDEH__45__RXN" name="2OXOGLUTARATEDEH-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 2OXOGLUTARATEDEH-RXN</p>
+          <p>SUBSYSTEM: PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot11g03020)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="_2__45__KETOGLUTARATE_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="SUC__45__COA_c" stoichiometry="1"/>
+      <speciesReference species="CARBON__45__DIOXIDE_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="ACONITATEHYDR__45__RXN" name="ACONITATEHYDR-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ACONITATEHYDR-RXN</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot02g04780)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="CIS__45__ACONITATE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="THREO__45__DS__45__ISO__45__CITRATE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="CITSYN__45__RXN" name="CITSYN-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: CITSYN-RXN</p>
+          <p>EC Number: 2.3.3.1/2.3.3.16</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot05g01770) or (Ot17g02320)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ACETYL__45__COA_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+      <speciesReference species="OXALACETIC_ACID_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="CIT_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="ACONITATEDEHYDR__45__RXN" name="ACONITATEDEHYDR-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ACONITATEDEHYDR-RXN</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot02g04780)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="CIT_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="CIS__45__ACONITATE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="ISOCITRATE__45__DEHYDROGENASE__45__NAD__43____45__RXN" name="ISOCITRATE-DEHYDROGENASE-NAD+-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: ISOCITRATE-DEHYDROGENASE-NAD+-RXN</p>
+          <p>EC Number: 1.1.1.41/1.1.1.286</p>
+          <p>SUBSYSTEM: PWY-5690</p>
+          <p>Confidence level: 0</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="THREO__45__DS__45__ISO__45__CITRATE_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="_2__45__KETOGLUTARATE_c" stoichiometry="1"/>
+      <speciesReference species="CARBON__45__DIOXIDE_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="SUCCCOASYN__45__RXN" name="SUCCCOASYN-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SUCCCOASYN-RXN</p>
+          <p>EC Number: 6.2.1.5</p>
+          <p>SUBSYSTEM: PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot03g05850)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="SUC_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="SUC__45__COA_c" stoichiometry="1"/>
+      <speciesReference species="ADP_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__14971" name="RXN-14971" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-14971</p>
+          <p>EC Number: 1.3.5.1</p>
+          <p>SUBSYSTEM: P105-PWY, PWY-5690</p>
+          <p>GENE_ASSOCIATION: (Ot08g02220) or (Ot06g03360) or (Ot15g00650) or (Ot14g00120)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ETR__45__Quinones_c" stoichiometry="1"/>
+      <speciesReference species="SUC_CCO__45__IN" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="ETR__45__Quinols_c" stoichiometry="1"/>
+      <speciesReference species="FUM_CCO__45__IN" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN0__45__1132" name="RXN0-1132" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN0-1132</p>
+          <p>EC Number: 1.8.1.4</p>
+          <p>SUBSYSTEM: PYRUVDEHYD-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot11g03020) or (Ot04g05070)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__dihydrolipoate_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__lipoate_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN0__45__1133" name="RXN0-1133" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN0-1133</p>
+          <p>EC Number: 2.3.1.12</p>
+          <p>SUBSYSTEM: PYRUVDEHYD-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot05g03030) or (Ot03g01020)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ACETYL__45__COA_c" stoichiometry="1"/>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__dihydrolipoate_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__acetylDHlipoyl_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN0__45__1134" name="RXN0-1134" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN0-1134</p>
+          <p>EC Number: 1.2.4.1</p>
+          <p>SUBSYSTEM: PYRUVDEHYD-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot01g05450) or (Ot06g02870)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__lipoate_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Pyruvate__45__dehydrogenase__45__acetylDHlipoyl_c" stoichiometry="1"/>
+      <speciesReference species="CARBON__45__DIOXIDE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PSII__45__RXN" name="PSII-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PSII-RXN</p>
+          <p>EC Number: 1.10.3.9</p>
+          <p>SUBSYSTEM: PWY-101, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot12g00430) or (Ot12g00530) or (Ot02g04370) or (OstapCp03) or (OstapCp13) or (OstapCp14) or (OstapCp15) or (OstapCp18) or (OstapCp31) or (OstapCp56) or (OstapCp57) or (OstapCp02) or (OstapCp30) or (OstapCp61)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Light_c" stoichiometry="1"/>
+      <speciesReference species="PLASTOQUINONE_c" stoichiometry="2"/>
+      <speciesReference species="PROTON_CCO__45__OUT" stoichiometry="4"/>
+      <speciesReference species="WATER_CCO__45__IN" stoichiometry="2"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Plastoquinols_c" stoichiometry="2"/>
+      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="4"/>
+      <speciesReference species="OXYGEN__45__MOLECULE_CCO__45__IN" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_1__46__18__46__1__46__2__45__RXN" name="1.18.1.2-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 1.18.1.2-RXN</p>
+          <p>EC Number: 1.18.1.2</p>
+          <p>SUBSYSTEM: PWY-101, PHOTOALL-PWY</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Reduced__45__ferredoxins_CCO__45__OUT" stoichiometry="2"/>
+      <speciesReference species="NADP_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Oxidized__45__ferredoxins_CCO__45__OUT" stoichiometry="2"/>
+      <speciesReference species="NADPH_CCO__45__IN" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PLASTOQUINOL__45____45__PLASTOCYANIN__45__REDUCTASE__45__RXN" name="PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN</p>
+          <p>EC Number: 1.10.9.1</p>
+          <p>SUBSYSTEM: PWY-101, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g00560) or (OstapCp60)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Plastoquinols_c" stoichiometry="1"/>
+      <speciesReference species="Oxidized__45__Plastocyanins_CCO__45__IN" stoichiometry="2"/>
+      <speciesReference species="PROTON_CCO__45__OUT" stoichiometry="2"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PLASTOQUINONE_c" stoichiometry="1"/>
+      <speciesReference species="Plastocyanin__45__Reduced_CCO__45__IN" stoichiometry="2"/>
+      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="4"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__15479" name="RXN-15479" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-15479</p>
+          <p>EC Number: 1.97.1.12</p>
+          <p>SUBSYSTEM: PWY-101, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot04g01880) or (Ot02g06250) or (Ot15g00990) or (Ot05g00810) or (OstapCp11) or (OstapCp52)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Light_c" stoichiometry="1"/>
+      <speciesReference species="Plastocyanin__45__Reduced_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="Oxidized__45__ferredoxins_CCO__45__OUT" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Oxidized__45__Plastocyanins_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="Reduced__45__ferredoxins_CCO__45__OUT" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="TRANSALDOL__45__RXN" name="TRANSALDOL-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: TRANSALDOL-RXN</p>
+          <p>EC Number: 2.2.1.2</p>
+          <p>SUBSYSTEM: NONOXIPENT-PWY, PENTOSE-P-PWY, PWY-5723</p>
+          <p>GENE_ASSOCIATION: (Ot17g01390)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__SEDOHEPTULOSE__45__7__45__P_c" stoichiometry="1"/>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="FRUCTOSE__45__6P_c" stoichiometry="1"/>
+      <speciesReference species="ERYTHROSE__45__4P_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_6PGLUCONOLACT__45__RXN" name="6PGLUCONOLACT-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 6PGLUCONOLACT-RXN</p>
+          <p>EC Number: 3.1.1.31</p>
+          <p>SUBSYSTEM: OXIDATIVEPENT-PWY, PENTOSE-P-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot17g01100) or (Ot16g01770)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__6__45__P__45__GLUCONO__45__DELTA__45__LACTONE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="CPD__45__2961_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__9952" name="RXN-9952" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-9952</p>
+          <p>EC Number: 1.1.1.44</p>
+          <p>SUBSYSTEM: OXIDATIVEPENT-PWY, PENTOSE-P-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g04130)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="CPD__45__2961_c" stoichiometry="1"/>
+      <speciesReference species="NADP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="RIBULOSE__45__5P_c" stoichiometry="1"/>
+      <speciesReference species="CARBON__45__DIOXIDE_c" stoichiometry="1"/>
+      <speciesReference species="NADPH_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="GLU6PDEHYDROG__45__RXN" name="GLU6PDEHYDROG-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: GLU6PDEHYDROG-RXN</p>
+          <p>EC Number: 1.1.1.49</p>
+          <p>SUBSYSTEM: OXIDATIVEPENT-PWY, PENTOSE-P-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot05g04760)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__glucopyranose__45__6__45__phosphate_c" stoichiometry="1"/>
+      <speciesReference species="NADP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="D__45__6__45__P__45__GLUCONO__45__DELTA__45__LACTONE_c" stoichiometry="1"/>
+      <speciesReference species="NADPH_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_3PGAREARR__45__RXN" name="3PGAREARR-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 3PGAREARR-RXN</p>
+          <p>EC Number: 5.4.2.12</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, GLUCONEO-PWY, PWY-5723</p>
+          <p>GENE_ASSOCIATION: (Ot08g02410) or (Ot07g03920) or (Ot03g00670)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="_2__45__PG_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="G3P_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_2PGADEHYDRAT__45__RXN" name="2PGADEHYDRAT-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 2PGADEHYDRAT-RXN</p>
+          <p>EC Number: 4.2.1.11</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, GLUCONEO-PWY, PWY-5723</p>
+          <p>GENE_ASSOCIATION: (Ot01g01550)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="_2__45__PG_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PHOSPHO__45__ENOL__45__PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PEPDEPHOS__45__RXN" name="PEPDEPHOS-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PEPDEPHOS-RXN</p>
+          <p>EC Number: 2.7.1.40</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, PWY-5723</p>
+          <p>GENE_ASSOCIATION: (Ot16g00440) or (Ot16g00530)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="PHOSPHO__45__ENOL__45__PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="ADP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__15513" name="RXN-15513" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-15513</p>
+          <p>EC Number: 5.4.2.11</p>
+          <p>SUBSYSTEM: GLYCOLYSIS</p>
+          <p>GENE_ASSOCIATION: (Ot03g00670)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="_2__45__PG_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="G3P_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_6PFRUCTPHOS__45__RXN" name="6PFRUCTPHOS-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 6PFRUCTPHOS-RXN</p>
+          <p>EC Number: 2.7.1.11</p>
+          <p>SUBSYSTEM: GLYCOLYSIS</p>
+          <p>GENE_ASSOCIATION: (Ot04g00450) or (Ot14g02170)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+      <speciesReference species="FRUCTOSE__45__6P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="ADP_c" stoichiometry="1"/>
+      <speciesReference species="FRUCTOSE__45__16__45__DIPHOSPHATE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PGLUCISOM__45__RXN" name="PGLUCISOM-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PGLUCISOM-RXN</p>
+          <p>EC Number: 5.3.1.9</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, PWY-5659, SUCSYN-PWY, GLUCONEO-PWY, PWY-7238, PWY-622</p>
+          <p>GENE_ASSOCIATION: (Ot11g02980)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__glucopyranose__45__6__45__phosphate_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="FRUCTOSE__45__6P_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="GAPOXNPHOSPHN__45__RXN" name="GAPOXNPHOSPHN-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: GAPOXNPHOSPHN-RXN</p>
+          <p>EC Number: 1.2.1.12</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, SUCSYN-PWY, GLUCONEO-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot02g05230)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="DPG_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PEPSYNTH__45__RXN" name="PEPSYNTH-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PEPSYNTH-RXN</p>
+          <p>EC Number: 2.7.9.2</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, GLUCONEO-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot02g06800)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+      <speciesReference species="PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="2"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+      <speciesReference species="PHOSPHO__45__ENOL__45__PYRUVATE_c" stoichiometry="1"/>
+      <speciesReference species="AMP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_1__46__1__46__1__46__8__45__RXN" name="1.1.1.8-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 1.1.1.8-RXN</p>
+          <p>EC Number: 1.1.1.8</p>
+          <p>SUBSYSTEM: PWY-7411, PWY-6118</p>
+          <p>GENE_ASSOCIATION: (Ot04g04100)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" stoichiometry="1"/>
+      <speciesReference species="NADH_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="GLYCEROL__45__3P_c" stoichiometry="1"/>
+      <speciesReference species="NAD_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__15745" name="RXN-15745" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-15745</p>
+          <p>EC Number: 1.1.5.3</p>
+          <p>SUBSYSTEM: PWY-6118</p>
+          <p>GENE_ASSOCIATION: (Ot03g01530)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ETR__45__Quinones_c" stoichiometry="1"/>
+      <speciesReference species="GLYCEROL__45__3P_CCO__45__IN" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="ETR__45__Quinols_c" stoichiometry="1"/>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_CCO__45__IN" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__12383" name="RXN-12383" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-12383</p>
+          <p>EC Number: 2.3.1.-</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>Confidence level: 0</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="DIACYLGLYCEROL_c" stoichiometry="2"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Triacylglycerols_c" stoichiometry="1"/>
+      <speciesReference species="CPD__45__409_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PHOSPHATIDATE__45__PHOSPHATASE__45__RXN" name="PHOSPHATIDATE-PHOSPHATASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PHOSPHATIDATE-PHOSPHATASE-RXN</p>
+          <p>EC Number: 3.1.3.4</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g00640) or (Ot03g02120)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="L__45__PHOSPHATIDATE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="DIACYLGLYCEROL_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__1381" name="RXN-1381" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-1381</p>
+          <p>EC Number: 2.3.1.15</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot02g00450)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Long__45__Chain__45__Acyl__45__CoAs_c" stoichiometry="1"/>
+      <speciesReference species="GLYCEROL__45__3P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="ACYL__45__SN__45__GLYCEROL__45__3P_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__1623" name="RXN-1623" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-1623</p>
+          <p>EC Number: 2.3.1.51</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g03180) or (Ot06g03440) or (Ot18g00950) or (Ot17g02310)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="Long__45__Chain__45__Acyl__45__CoAs_c" stoichiometry="1"/>
+      <speciesReference species="ACYL__45__SN__45__GLYCEROL__45__3P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="L__45__PHOSPHATIDATE_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__1641" name="RXN-1641" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-1641</p>
+          <p>EC Number: 2.3.1.158</p>
+          <p>SUBSYSTEM: PWY-7416, TRIGLSYN-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot09g03200)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="PHOSPHATIDYLCHOLINE_c" stoichiometry="1"/>
+      <speciesReference species="DIACYLGLYCEROL_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Triacylglycerols_c" stoichiometry="1"/>
+      <speciesReference species="_2__45__Lysophosphatidylcholines_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="DIACYLGLYCEROL__45__O__45__ACYLTRANSFERASE__45__RXN" name="DIACYLGLYCEROL-O-ACYLTRANSFERASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: DIACYLGLYCEROL-O-ACYLTRANSFERASE-RXN</p>
+          <p>EC Number: 2.3.1.20</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot13g01100)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ACYL__45__COA_c" stoichiometry="1"/>
+      <speciesReference species="DIACYLGLYCEROL_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="Triacylglycerols_c" stoichiometry="1"/>
+      <speciesReference species="CO__45__A_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RXN__45__12959" name="RXN-12959" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RXN-12959</p>
+          <p>EC Number: 2.7.1.174</p>
+          <p>SUBSYSTEM: TRIGLSYN-PWY</p>
+          <p>Confidence level: 0</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="CTP_c" stoichiometry="1"/>
+      <speciesReference species="DIACYLGLYCEROL_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="CDP_c" stoichiometry="1"/>
+      <speciesReference species="L__45__PHOSPHATIDATE_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RIBULOSE__45__BISPHOSPHATE__45__CARBOXYLASE__45__RXN" name="RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN</p>
+          <p>EC Number: 4.1.1.39</p>
+          <p>SUBSYSTEM: PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (OstapCp59) or (Ot07g01830) or (Ot18g02030)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__RIBULOSE__45__15__45__P2_c" stoichiometry="1"/>
+      <speciesReference species="CARBON__45__DIOXIDE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="G3P_c" stoichiometry="2"/>
+      <speciesReference species="PROTON_c" stoichiometry="2"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PHOSPHORIBULOKINASE__45__RXN" name="PHOSPHORIBULOKINASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PHOSPHORIBULOKINASE-RXN</p>
+          <p>EC Number: 2.7.1.19</p>
+          <p>SUBSYSTEM: PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot04g02900)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="RIBULOSE__45__5P_c" stoichiometry="1"/>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+      <speciesReference species="D__45__RIBULOSE__45__15__45__P2_c" stoichiometry="1"/>
+      <speciesReference species="ADP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_2TRANSKETO__45__RXN" name="2TRANSKETO-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 2TRANSKETO-RXN</p>
+          <p>EC Number: 2.2.1.1</p>
+          <p>SUBSYSTEM: NONOXIPENT-PWY, PENTOSE-P-PWY, PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g04240)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="ERYTHROSE__45__4P_c" stoichiometry="1"/>
+      <speciesReference species="XYLULOSE__45__5__45__PHOSPHATE_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="FRUCTOSE__45__6P_c" stoichiometry="1"/>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RIB5PISOM__45__RXN" name="RIB5PISOM-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RIB5PISOM-RXN</p>
+          <p>EC Number: 5.3.1.6</p>
+          <p>SUBSYSTEM: NONOXIPENT-PWY, PENTOSE-P-PWY, PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot05g04200)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="RIBOSE__45__5P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="RIBULOSE__45__5P_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="RIBULP3EPIM__45__RXN" name="RIBULP3EPIM-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: RIBULP3EPIM-RXN</p>
+          <p>EC Number: 5.1.3.1</p>
+          <p>SUBSYSTEM: NONOXIPENT-PWY, PENTOSE-P-PWY, PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot06g01930)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="RIBULOSE__45__5P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="XYLULOSE__45__5__45__PHOSPHATE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_1TRANSKETO__45__RXN" name="1TRANSKETO-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 1TRANSKETO-RXN</p>
+          <p>EC Number: 2.2.1.1</p>
+          <p>SUBSYSTEM: NONOXIPENT-PWY, PENTOSE-P-PWY, PWY-5723, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot07g04240)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="D__45__SEDOHEPTULOSE__45__7__45__P_c" stoichiometry="1"/>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="RIBOSE__45__5P_c" stoichiometry="1"/>
+      <speciesReference species="XYLULOSE__45__5__45__PHOSPHATE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="PHOSGLYPHOS__45__RXN" name="PHOSGLYPHOS-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: PHOSGLYPHOS-RXN</p>
+          <p>EC Number: 2.7.2.3</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, SUCSYN-PWY, GLUCONEO-PWY, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot02g05220)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="G3P_c" stoichiometry="1"/>
+      <speciesReference species="ATP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="DPG_c" stoichiometry="1"/>
+      <speciesReference species="ADP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="TRIOSEPISOMERIZATION__45__RXN" name="TRIOSEPISOMERIZATION-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: TRIOSEPISOMERIZATION-RXN</p>
+          <p>EC Number: 5.3.1.1</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, GLUCONEO-PWY, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot09g00080)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="F16ALDOLASE__45__RXN" name="F16ALDOLASE-RXN" reversible="true">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: F16ALDOLASE-RXN</p>
+          <p>EC Number: 4.1.2.13</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, SUCSYN-PWY, GLUCONEO-PWY, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot04g04610) or (Ot03g00610) or (Ot10g01490) or (Ot01g03020)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="FRUCTOSE__45__16__45__DIPHOSPHATE_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" stoichiometry="1"/>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="-1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="F16BDEPHOS__45__RXN" name="F16BDEPHOS-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: F16BDEPHOS-RXN</p>
+          <p>EC Number: 3.1.3.11</p>
+          <p>SUBSYSTEM: GLYCOLYSIS, SUCSYN-PWY, GLUCONEO-PWY, CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot09g00050) or (Ot03g00330)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="FRUCTOSE__45__16__45__DIPHOSPHATE_c" stoichiometry="1"/>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="FRUCTOSE__45__6P_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="_1__46__2__46__1__46__13__45__RXN" name="1.2.1.13-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: 1.2.1.13-RXN</p>
+          <p>EC Number: 1.2.1.13</p>
+          <p>SUBSYSTEM: CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot10g03520) or (Ot01g01490)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="DPG_c" stoichiometry="1"/>
+      <speciesReference species="NADPH_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="GAP_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+      <speciesReference species="NADP_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="SEDOHEPTULOSE__45__BISPHOSPHATASE__45__RXN" name="SEDOHEPTULOSE-BISPHOSPHATASE-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SEDOHEPTULOSE-BISPHOSPHATASE-RXN</p>
+          <p>EC Number: 3.1.3.37</p>
+          <p>SUBSYSTEM: CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot03g05460)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="WATER_c" stoichiometry="1"/>
+      <speciesReference species="D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="D__45__SEDOHEPTULOSE__45__7__45__P_c" stoichiometry="1"/>
+      <speciesReference species="Pi_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+<reaction id="SEDOBISALDOL__45__RXN" name="SEDOBISALDOL-RXN" reversible="false">
+      <notes>
+        <body xmlns="http://www.w3.org/1999/xhtml">
+          <p>BIOCYC: SEDOBISALDOL-RXN</p>
+          <p>EC Number: 4.1.2.-</p>
+          <p>SUBSYSTEM: CALVIN-PWY, PHOTOALL-PWY</p>
+          <p>GENE_ASSOCIATION: (Ot10g01490)</p>
+          <p>Confidence level: 2</p>
+        </body>
+      </notes>
+   <listOfReactants>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" stoichiometry="1"/>
+      <speciesReference species="ERYTHROSE__45__4P_c" stoichiometry="1"/>
+   </listOfReactants>
+   <listOfProducts>
+      <speciesReference species="D__45__SEDOHEPTULOSE__45__1__45__7__45__P2_c" stoichiometry="1"/>
+   </listOfProducts>
+		<kineticLaw>
+			<math xmlns="http://www.w3.org/1998/Math/MathML">
+				<ci> FLUX_VALUE </ci>
+			</math>
+			<listOfParameters>
+				<parameter id="LOWER_BOUND" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="UPPER_BOUND" value="1000" units="mmol_per_gDW_per_hr"/>
+				<parameter id="OBJECTIVE_COEFFICIENT" value="0"/>
+				<parameter id="FLUX_VALUE" value="0" units="mmol_per_gDW_per_hr"/>
+				<parameter id="REDUCED_COST" value="0.000000"/>
+			</listOfParameters>
+		</kineticLaw>
+</reaction>
+</listOfReactions>
+</model>
+</sbml>
