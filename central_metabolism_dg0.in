@@ -1,5 +1,6 @@
 RXN_FILE central_metabolism_dg0_rxns.dat 
-INIT_FILE central_metabolism_dg0_concs_Fixecoli.in 
+INIT_FILE central_metabolism_dg0_concs_Fixecoli_G.in
+#INIT_FILE central_metabolism_dg0_concs_Fixecoli.in 
 #INIT_FILE central_metabolism_dg0_concs.in
 LOG_FILE central_metabolism_dg0_concs.log
 OUT_FILE central_metabolism_dg0_concs.out 
