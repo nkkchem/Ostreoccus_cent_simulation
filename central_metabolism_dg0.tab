@@ -1,0 +1,51 @@
+ID	Name	Matches	Gibbs-0	
+FUMHYDR-RXN	(<i>S</i>)-malate  &larr;  fumarate + H<sub>2</sub>O	PWY-5690	0.6130066	
+MALATE-DEH-RXN	(<i>S</i>)-malate + NAD<sup>+</sup>  &harr;  oxaloacetate + NADH + H<SUP>+</SUP>	PWY-5690	4.461792	
+2OXOGLUTARATEDEH-RXN	2-oxoglutarate + coenzyme A + NAD<sup>+</sup>  &rarr;  succinyl-CoA + CO<SUB>2</SUB> + NADH	PWY-5690	-11.366394	
+ACONITATEHYDR-RXN	<i>cis</i>-aconitate + H<sub>2</sub>O  &harr;  D-<i>threo</i>-isocitrate	PWY-5690	-3.1329956	
+CITSYN-RXN	acetyl-CoA + oxaloacetate + H<sub>2</sub>O  &rarr;  citrate + coenzyme A + H<SUP>+</SUP>	PWY-5690	-10.515259	
+ACONITATEDEHYDR-RXN	citrate  &harr;  <i>cis</i>-aconitate + H<sub>2</sub>O	PWY-5690	3.3529968	
+ISOCITRATE-DEHYDROGENASE-NAD+-RXN	D-<i>threo</i>-isocitrate + NAD<sup>+</sup>  &rarr;  2-oxoglutarate + CO<SUB>2</SUB> + NADH	PWY-5690	1.6241455	
+SUCCCOASYN-RXN	succinate + ATP + coenzyme A  &harr;  succinyl-CoA + ADP + phosphate	PWY-5690	-1.0540771	
+RXN-14971	succinate<SUB>[in]</SUB> + an electron-transfer quinone<SUB>[membrane]</SUB>  &rarr;  fumarate<SUB>[in]</SUB> + an electron-transfer quinol<SUB>[membrane]</SUB>	PWY-5690	22.757736	
+RXN0-1132	a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-dihydrolipoyl-L-lysine + NAD<sup>+</sup>  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + NADH + H<SUP>+</SUP>	PYRUVDEHYD-PWY	19.404053	
+RXN0-1133	acetyl-CoA + a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-dihydrolipoyl-L-lysine  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-acetyldihydrolipoyl-L-lysine + coenzyme A	PYRUVDEHYD-PWY	-20.542236	
+RXN0-1134	pyruvate + a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + H<SUP>+</SUP>  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-acetyldihydrolipoyl-L-lysine + CO<SUB>2</SUB>	PYRUVDEHYD-PWY	-49.93036	
+PSII-RXN	2 a plastoquinol<SUB>[membrane]</SUB> + 4 H<SUP>+</SUP><SUB>[in]</SUB> + oxygen<SUB>[in]</SUB>  &larr;  h&nu; + 2 a plastoquinone<SUB>[membrane]</SUB> + 4 H<SUP>+</SUP><SUB>[out]</SUB> + 2 H<sub>2</sub>O<SUB>[in]</SUB>	PWY-101		
+1.18.1.2-RXN	2 a reduced ferredoxin [iron-sulfur] cluster<SUB>[out]</SUB> + NADP<sup>+</sup><SUB>[in]</SUB> + H<SUP>+</SUP><SUB>[in]</SUB>  &harr;  2 an oxidized ferredoxin [iron-sulfur] cluster<SUB>[out]</SUB> + NADPH<SUB>[in]</SUB>	PWY-101	9.625305	
+PLASTOQUINOL--PLASTOCYANIN-REDUCTASE-RXN	2 an oxidized plastocyanin<SUB>[in]</SUB> + a plastoquinol<SUB>[membrane]</SUB> + 2 H<SUP>+</SUP><SUB>[out]</SUB>  &rarr;  2 a reduced plastocyanin<SUB>[in]</SUB> + a plastoquinone<SUB>[membrane]</SUB> + 4 H<SUP>+</SUP><SUB>[in]</SUB>	PWY-101		
+RXN-15479	an oxidized plastocyanin<SUB>[in]</SUB> + a reduced ferredoxin [iron-sulfur] cluster<SUB>[out]</SUB>  &larr;  h&nu; + a reduced plastocyanin<SUB>[in]</SUB> + an oxidized ferredoxin [iron-sulfur] cluster<SUB>[out]</SUB>	PWY-101		
+TRANSALDOL-RXN	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate + D-erythrose 4-phosphate	PENTOSE-P-PWY, PWY-5723	-2.920044	
+6PGLUCONOLACT-RXN	6-phospho D-glucono-1,5-lactone + H<sub>2</sub>O  &rarr;  D-gluconate 6-phosphate + H<SUP>+</SUP>	PENTOSE-P-PWY	-7.355438	
+RXN-9952	D-gluconate 6-phosphate + NADP<sup>+</sup>  &rarr;  D-ribulose 5-phosphate + CO<SUB>2</SUB> + NADPH	PENTOSE-P-PWY	-1.3841553	
+GLU6PDEHYDROG-RXN	D-glucopyranose 6-phosphate + NADP<sup>+</sup>  &rarr;  6-phospho D-glucono-1,5-lactone + NADPH + H<SUP>+</SUP>	PENTOSE-P-PWY	-5.9264526	
+3PGAREARR-RXN	2-phospho-D-glycerate  &harr;  3-phospho-D-glycerate	GLYCOLYSIS, PWY-5723	-1.3200073	
+2PGADEHYDRAT-RXN	2-phospho-D-glycerate  &harr;  phospho<i>enol</i>pyruvate + H<sub>2</sub>O	GLYCOLYSIS, PWY-5723	-0.18701172	
+PEPDEPHOS-RXN	pyruvate + ATP  &larr;  phospho<i>enol</i>pyruvate + ADP + H<SUP>+</SUP>	GLYCOLYSIS, PWY-5723	-2.234192	
+RXN-15513	2-phospho-D-glycerate  &harr;  3-phospho-D-glycerate	GLYCOLYSIS	-1.3200073	
+6PFRUCTPHOS-RXN	ATP + &beta;-D-fructofuranose 6-phosphate  &rarr;  ADP + fructose 1,6-bisphosphate + H<SUP>+</SUP>	GLYCOLYSIS	-14.492371	
+PGLUCISOM-RXN	D-glucopyranose 6-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate	GLYCOLYSIS	1.3800049	
+GAPOXNPHOSPHN-RXN	D-glyceraldehyde 3-phosphate + NAD<sup>+</sup> + phosphate  &harr;  3-phospho-D-glyceroyl-phosphate + NADH + H<SUP>+</SUP>	GLYCOLYSIS	-15.19458	
+PEPSYNTH-RXN	pyruvate + ATP + H<sub>2</sub>O  &rarr;  phospho<i>enol</i>pyruvate + AMP + phosphate + 2 H<SUP>+</SUP>	GLYCOLYSIS	-9.577148	
+1.1.1.8-RXN	<i>sn</i>-glycerol 3-phosphate + NAD<sup>+</sup>  &larr;  glycerone phosphate + NADH + H<SUP>+</SUP>	PWY-6118	4.1518555	
+RXN-15745	<i>sn</i>-glycerol 3-phosphate<SUB>[in]</SUB> + an electron-transfer quinone<SUB>[membrane]</SUB>  &rarr;  glycerone phosphate<SUB>[in]</SUB> + an electron-transfer quinol<SUB>[membrane]</SUB>	PWY-6118	12.54776	
+RXN-12383	2 a 1,2-diacyl-<i>sn</i>-glycerol  &harr;  a triacyl-<i>sn</i>-glycerol + a 2-acylglycerol	TRIGLSYN-PWY	0.0	
+PHOSPHATIDATE-PHOSPHATASE-RXN	a 1,2-diacyl-<i>sn</i>-glycerol 3-phosphate + H<sub>2</sub>O  &rarr;  a 1,2-diacyl-<i>sn</i>-glycerol + phosphate	TRIGLSYN-PWY	-3.0541382	
+RXN-1381	a long-chain acyl-CoA + <i>sn</i>-glycerol 3-phosphate  &rarr;  a 1-acyl-<i>sn</i>-glycerol 3-phosphate + coenzyme A	TRIGLSYN-PWY	253.16797	
+RXN-1623	a long-chain acyl-CoA + a 1-acyl-<i>sn</i>-glycerol 3-phosphate  &rarr;  a 1,2-diacyl-<i>sn</i>-glycerol 3-phosphate + coenzyme A	TRIGLSYN-PWY	325.0658	
+RXN-1641	a phosphatidylcholine + a 1,2-diacyl-<i>sn</i>-glycerol  &rarr;  a triacyl-<i>sn</i>-glycerol + a 1-acyl-<i>sn</i>-glycero-3-phosphocholine	TRIGLSYN-PWY	0.0	
+DIACYLGLYCEROL-O-ACYLTRANSFERASE-RXN	an acyl-CoA + a 1,2-diacyl-<i>sn</i>-glycerol  &rarr;  a triacyl-<i>sn</i>-glycerol + coenzyme A	TRIGLSYN-PWY	325.0658	
+RXN-12959	CTP + a 1,2-diacyl-<i>sn</i>-glycerol  &rarr;  CDP + a 1,2-diacyl-<i>sn</i>-glycerol 3-phosphate + H<SUP>+</SUP>	TRIGLSYN-PWY	-99.53473	
+RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN	2 3-phospho-D-glycerate + 2 H<SUP>+</SUP>  &larr;  D-ribulose-1,5-bisphosphate + CO<SUB>2</SUB> + H<sub>2</sub>O	CALVIN-PWY, PWY-5723	4.1412964	
+PHOSPHORIBULOKINASE-RXN	D-ribulose 5-phosphate + ATP  &rarr;  D-ribulose-1,5-bisphosphate + ADP + H<SUP>+</SUP>	CALVIN-PWY, PWY-5723	-17.312378	
+2TRANSKETO-RXN	D-erythrose 4-phosphate + D-xylulose 5-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate + D-glyceraldehyde 3-phosphate	CALVIN-PWY, PENTOSE-P-PWY, PWY-5723	3.959961	
+RIB5PISOM-RXN	D-ribose 5-phosphate  &harr;  D-ribulose 5-phosphate	CALVIN-PWY, PENTOSE-P-PWY, PWY-5723	-6.130005	
+RIBULP3EPIM-RXN	D-ribulose 5-phosphate  &harr;  D-xylulose 5-phosphate	CALVIN-PWY, PENTOSE-P-PWY, PWY-5723	0.0	
+1TRANSKETO-RXN	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  &harr;  D-ribose 5-phosphate + D-xylulose 5-phosphate	CALVIN-PWY, PENTOSE-P-PWY, PWY-5723	1.2300415	
+PHOSGLYPHOS-RXN	3-phospho-D-glycerate + ATP  &harr;  3-phospho-D-glyceroyl-phosphate + ADP	CALVIN-PWY, GLYCOLYSIS	-7.51001	
+TRIOSEPISOMERIZATION-RXN	D-glyceraldehyde 3-phosphate  &harr;  glycerone phosphate	CALVIN-PWY, GLYCOLYSIS	-1.8299866	
+F16ALDOLASE-RXN	fructose 1,6-bisphosphate  &harr;  glycerone phosphate + D-glyceraldehyde 3-phosphate	CALVIN-PWY, GLYCOLYSIS	8.226501	
+F16BDEPHOS-RXN	fructose 1,6-bisphosphate + H<sub>2</sub>O  &rarr;  &beta;-D-fructofuranose 6-phosphate + phosphate	CALVIN-PWY, GLYCOLYSIS	6.8935547	
+1.2.1.13-RXN	D-glyceraldehyde 3-phosphate + NADP<sup>+</sup> + phosphate  &larr;  3-phospho-D-glyceroyl-phosphate + NADPH + H<SUP>+</SUP>	CALVIN-PWY	-16.442871	
+SEDOHEPTULOSE-BISPHOSPHATASE-RXN	D-sedoheptulose-1,7-bisphosphate + H<sub>2</sub>O  &rarr;  D-sedoheptulose 7-phosphate + phosphate	CALVIN-PWY	9.713501	
+SEDOBISALDOL-RXN	glycerone phosphate + D-erythrose 4-phosphate  &rarr;  D-sedoheptulose-1,7-bisphosphate	CALVIN-PWY	-8.126587	
