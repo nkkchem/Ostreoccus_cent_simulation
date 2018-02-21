@@ -11,8 +11,6 @@
 	</unitDefinition>
 </listOfUnitDefinitions>
 <listOfCompartments>
-  <compartment id="CCO__45__OUT" name="CCO-OUT"/>
-  <compartment id="CCO__45__IN" name="CCO-IN"/>
   <compartment id="c" name="CCO-CYTOSOL"/>
 </listOfCompartments>
 <listOfSpecies>
@@ -193,40 +191,6 @@
         </body>
       </notes>
   </species>
-  <species id="GLYCEROL__45__3P_CCO__45__IN" name="sn-glycerol 3-phosphate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: GLYCEROL-3P</p>
-          <p>INCHI: InChI=1S/C3H9O6P/c4-1-3(5)2-9-10(6,7)8/h3-5H,1-2H2,(H2,6,7,8)/p-2/t3-/m1/s1</p>
-          <p>CHEBI: 57597</p>
-          <p>HMDB: HMDB00126</p>
-          <p>CHEMSPIDER: 2939444</p>
-          <p>PUBCHEM: 7048686</p>
-          <p>CAS: 57-03-4</p>
-          <p>METABOLIGHTS: MTBLC57597</p>
-          <p>KEGG: C00093</p>
-          <p>FORMULA: C3H7O6P</p>
-          <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
-  <species id="DIHYDROXY__45__ACETONE__45__PHOSPHATE_CCO__45__IN" name="glycerone phosphate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: DIHYDROXY-ACETONE-PHOSPHATE</p>
-          <p>INCHI: InChI=1S/C3H7O6P/c4-1-3(5)2-9-10(6,7)8/h4H,1-2H2,(H2,6,7,8)/p-2</p>
-          <p>CHEBI: 57642</p>
-          <p>HMDB: HMDB01473</p>
-          <p>CHEMSPIDER: 3833110</p>
-          <p>PUBCHEM: 4643300</p>
-          <p>CAS: 57-04-5</p>
-          <p>METABOLIGHTS: MTBLC57642</p>
-          <p>KEGG: C00111</p>
-          <p>FORMULA: C3H5O6P</p>
-          <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
   <species id="GLYCEROL__45__3P_c" name="sn-glycerol 3-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
@@ -371,23 +335,6 @@
         </body>
       </notes>
   </species>
-  <species id="NADP_c" name="NADP+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: NADP</p>
-          <p>INCHI: InChI=1S/C21H28N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1-4,7-8,10-11,13-16,20-21,29-31H,5-6H2,(H7-,22,23,24,25,32,33,34,35,36,37,38,39)/p-3/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
-          <p>CHEBI: 58349</p>
-          <p>HMDB: HMDB00217</p>
-          <p>CHEMSPIDER: 10239198</p>
-          <p>PUBCHEM: 15938972</p>
-          <p>CAS: 53-59-8</p>
-          <p>METABOLIGHTS: MTBLC58349</p>
-          <p>KEGG: C00006</p>
-          <p>FORMULA: C21H25N7O17P3</p>
-          <p>CHARGE: -3</p>
-        </body>
-      </notes>
-  </species>
   <species id="RIBULOSE__45__5P_c" name="D-ribulose 5-phosphate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
@@ -402,23 +349,6 @@
           <p>KEGG: C00199</p>
           <p>FORMULA: C5H9O8P</p>
           <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
-  <species id="NADPH_c" name="NADPH" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: NADPH</p>
-          <p>INCHI: InChI=1S/C21H30N7O17P3/c22-17-12-19(25-7-24-17)28(8-26-12)21-16(44-46(33,34)35)14(30)11(43-21)6-41-48(38,39)45-47(36,37)40-5-10-13(29)15(31)20(42-10)27-3-1-2-9(4-27)18(23)32/h1,3-4,7-8,10-11,13-16,20-21,29-31H,2,5-6H2,(H2,23,32)(H,36,37)(H,38,39)(H2,22,24,25)(H2,33,34,35)/p-4/t10-,11-,13-,14-,15-,16-,20-,21-/m1/s1</p>
-          <p>CHEBI: 57783</p>
-          <p>HMDB: HMDB00221</p>
-          <p>CHEMSPIDER: 10239199</p>
-          <p>PUBCHEM: 15983949</p>
-          <p>CAS: 2646-71-1</p>
-          <p>METABOLIGHTS: MTBLC57783</p>
-          <p>KEGG: C00005</p>
-          <p>FORMULA: C21H26N7O17P3</p>
-          <p>CHARGE: -4</p>
         </body>
       </notes>
   </species>
@@ -515,21 +445,21 @@
         </body>
       </notes>
   </species>
-  <species id="Oxidized__45__Plastocyanins_CCO__45__IN" name="an oxidized plastocyanin" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+  <species id="Oxidized__45__Plastocyanins_c" name="an oxidized plastocyanin" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: |Oxidized-Plastocyanins|</p>
         </body>
       </notes>
   </species>
-  <species id="Plastocyanin__45__Reduced_CCO__45__IN" name="a reduced plastocyanin" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+  <species id="Plastocyanin__45__Reduced_c" name="a reduced plastocyanin" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: |Plastocyanin-Reduced|</p>
         </body>
       </notes>
   </species>
-  <species id="Reduced__45__ferredoxins_CCO__45__OUT" name="a reduced ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="1">
+  <species id="Reduced__45__ferredoxins_c" name="a reduced ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="c" boundaryCondition="false" charge="1">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: |Reduced-ferredoxins|</p>
@@ -537,7 +467,7 @@
         </body>
       </notes>
   </species>
-  <species id="NADP_CCO__45__IN" name="NADP+" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-3">
+  <species id="NADP_c" name="NADP+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-3">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: NADP</p>
@@ -554,7 +484,7 @@
         </body>
       </notes>
   </species>
-  <species id="Oxidized__45__ferredoxins_CCO__45__OUT" name="an oxidized ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="2">
+  <species id="Oxidized__45__ferredoxins_c" name="an oxidized ferredoxin [iron-sulfur] cluster" initialAmount="1000" compartment="c" boundaryCondition="false" charge="2">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: |Oxidized-ferredoxins|</p>
@@ -562,7 +492,7 @@
         </body>
       </notes>
   </species>
-  <species id="NADPH_CCO__45__IN" name="NADPH" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-4">
+  <species id="NADPH_c" name="NADPH" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-4">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: NADPH</p>
@@ -589,23 +519,7 @@
         </body>
       </notes>
   </species>
-  <species id="PROTON_CCO__45__IN" name="H+" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="1">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: PROTON</p>
-          <p>INCHI: InChI=1S/p+1</p>
-          <p>CHEBI: 15378</p>
-          <p>HMDB: HMDB59597</p>
-          <p>CHEMSPIDER: 1010</p>
-          <p>PUBCHEM: 1038</p>
-          <p>CAS: 12408-02-5</p>
-          <p>KEGG: C00080</p>
-          <p>FORMULA: H</p>
-          <p>CHARGE: 1</p>
-        </body>
-      </notes>
-  </species>
-  <species id="OXYGEN__45__MOLECULE_CCO__45__IN" name="oxygen" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+  <species id="OXYGEN__45__MOLECULE_c" name="oxygen" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: OXYGEN-MOLECULE</p>
@@ -640,7 +554,7 @@
         </body>
       </notes>
   </species>
-  <species id="PROTON_CCO__45__OUT" name="H+" initialAmount="1000" compartment="CCO__45__OUT" boundaryCondition="false" charge="1">
+  <species id="PROTON_c" name="H+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="1">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: PROTON</p>
@@ -656,7 +570,7 @@
         </body>
       </notes>
   </species>
-  <species id="WATER_CCO__45__IN" name="H2O" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="0">
+  <species id="WATER_c" name="H2O" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: WATER</p>
@@ -723,65 +637,10 @@
         </body>
       </notes>
   </species>
-  <species id="SUC_CCO__45__IN" name="succinate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: SUC</p>
-          <p>INCHI: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)/p-2</p>
-          <p>CHEBI: 30031</p>
-          <p>HMDB: HMDB00254</p>
-          <p>CHEMSPIDER: 140973</p>
-          <p>PUBCHEM: 160419</p>
-          <p>CAS: 110-15-6</p>
-          <p>KNAPSACK: C00001205</p>
-          <p>METABOLIGHTS: MTBLC30031</p>
-          <p>KEGG: C00042</p>
-          <p>FORMULA: C4H4O4</p>
-          <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
   <species id="ETR__45__Quinols_c" name="an electron-transfer quinol" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
           <p>BIOCYC: |ETR-Quinols|</p>
-        </body>
-      </notes>
-  </species>
-  <species id="FUM_CCO__45__IN" name="fumarate" initialAmount="1000" compartment="CCO__45__IN" boundaryCondition="false" charge="-2">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: FUM</p>
-          <p>INCHI: InChI=1S/C4H4O4/c5-3(6)1-2-4(7)8/h1-2H,(H,5,6)(H,7,8)/p-2/b2-1+</p>
-          <p>CHEBI: 29806</p>
-          <p>HMDB: HMDB00134</p>
-          <p>CHEMSPIDER: 4573886</p>
-          <p>PUBCHEM: 5460307</p>
-          <p>DRUGBANK: DB01677</p>
-          <p>CAS: 110-17-8</p>
-          <p>KNAPSACK: C00001183</p>
-          <p>METABOLIGHTS: MTBLC29806</p>
-          <p>KEGG: C00122</p>
-          <p>FORMULA: C4H2O4</p>
-          <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
-  <species id="SUC_c" name="succinate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: SUC</p>
-          <p>INCHI: InChI=1S/C4H6O4/c5-3(6)1-2-4(7)8/h1-2H2,(H,5,6)(H,7,8)/p-2</p>
-          <p>CHEBI: 30031</p>
-          <p>HMDB: HMDB00254</p>
-          <p>CHEMSPIDER: 140973</p>
-          <p>PUBCHEM: 160419</p>
-          <p>CAS: 110-15-6</p>
-          <p>KNAPSACK: C00001205</p>
-          <p>METABOLIGHTS: MTBLC30031</p>
-          <p>KEGG: C00042</p>
-          <p>FORMULA: C4H4O4</p>
-          <p>CHARGE: -2</p>
         </body>
       </notes>
   </species>
@@ -994,22 +853,6 @@
         </body>
       </notes>
   </species>
-  <species id="PROTON_c" name="H+" initialAmount="1000" compartment="c" boundaryCondition="false" charge="1">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: PROTON</p>
-          <p>INCHI: InChI=1S/p+1</p>
-          <p>CHEBI: 15378</p>
-          <p>HMDB: HMDB59597</p>
-          <p>CHEMSPIDER: 1010</p>
-          <p>PUBCHEM: 1038</p>
-          <p>CAS: 12408-02-5</p>
-          <p>KEGG: C00080</p>
-          <p>FORMULA: H</p>
-          <p>CHARGE: 1</p>
-        </body>
-      </notes>
-  </species>
   <species id="OXALACETIC_ACID_c" name="oxaloacetate" initialAmount="1000" compartment="c" boundaryCondition="false" charge="-2">
       <notes>
         <body xmlns="http://www.w3.org/1999/xhtml">
@@ -1077,23 +920,6 @@
           <p>KEGG: C00122</p>
           <p>FORMULA: C4H2O4</p>
           <p>CHARGE: -2</p>
-        </body>
-      </notes>
-  </species>
-  <species id="WATER_c" name="H2O" initialAmount="1000" compartment="c" boundaryCondition="false" charge="0">
-      <notes>
-        <body xmlns="http://www.w3.org/1999/xhtml">
-          <p>BIOCYC: WATER</p>
-          <p>INCHI: InChI=1S/H2O/h1H2</p>
-          <p>CHEBI: 15377</p>
-          <p>HMDB: HMDB02111</p>
-          <p>CHEMSPIDER: 937</p>
-          <p>PUBCHEM: 962</p>
-          <p>CAS: 7732-18-5</p>
-          <p>METABOLIGHTS: MTBLC15377</p>
-          <p>KEGG: C00001</p>
-          <p>FORMULA: H2O</p>
-          <p>CHARGE: 0</p>
         </body>
       </notes>
   </species>
@@ -1360,11 +1186,11 @@
       </notes>
    <listOfReactants>
       <speciesReference species="ETR__45__Quinones_c" stoichiometry="1"/>
-      <speciesReference species="SUC_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="SUC_c" stoichiometry="1"/>
    </listOfReactants>
    <listOfProducts>
       <speciesReference species="ETR__45__Quinols_c" stoichiometry="1"/>
-      <speciesReference species="FUM_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="FUM_c" stoichiometry="1"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1487,13 +1313,13 @@
    <listOfReactants>
       <speciesReference species="Light_c" stoichiometry="1"/>
       <speciesReference species="PLASTOQUINONE_c" stoichiometry="2"/>
-      <speciesReference species="PROTON_CCO__45__OUT" stoichiometry="4"/>
-      <speciesReference species="WATER_CCO__45__IN" stoichiometry="2"/>
+      <speciesReference species="PROTON_c" stoichiometry="4"/>
+      <speciesReference species="WATER_c" stoichiometry="2"/>
    </listOfReactants>
    <listOfProducts>
       <speciesReference species="Plastoquinols_c" stoichiometry="2"/>
-      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="4"/>
-      <speciesReference species="OXYGEN__45__MOLECULE_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="4"/>
+      <speciesReference species="OXYGEN__45__MOLECULE_c" stoichiometry="1"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1518,13 +1344,13 @@
         </body>
       </notes>
    <listOfReactants>
-      <speciesReference species="Reduced__45__ferredoxins_CCO__45__OUT" stoichiometry="2"/>
-      <speciesReference species="NADP_CCO__45__IN" stoichiometry="1"/>
-      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="Reduced__45__ferredoxins_c" stoichiometry="2"/>
+      <speciesReference species="NADP_c" stoichiometry="1"/>
+      <speciesReference species="PROTON_c" stoichiometry="1"/>
    </listOfReactants>
    <listOfProducts>
-      <speciesReference species="Oxidized__45__ferredoxins_CCO__45__OUT" stoichiometry="2"/>
-      <speciesReference species="NADPH_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="Oxidized__45__ferredoxins_c" stoichiometry="2"/>
+      <speciesReference species="NADPH_c" stoichiometry="1"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1551,13 +1377,13 @@
       </notes>
    <listOfReactants>
       <speciesReference species="Plastoquinols_c" stoichiometry="1"/>
-      <speciesReference species="Oxidized__45__Plastocyanins_CCO__45__IN" stoichiometry="2"/>
-      <speciesReference species="PROTON_CCO__45__OUT" stoichiometry="2"/>
+      <speciesReference species="Oxidized__45__Plastocyanins_c" stoichiometry="2"/>
+      <speciesReference species="PROTON_c" stoichiometry="2"/>
    </listOfReactants>
    <listOfProducts>
       <speciesReference species="PLASTOQUINONE_c" stoichiometry="1"/>
-      <speciesReference species="Plastocyanin__45__Reduced_CCO__45__IN" stoichiometry="2"/>
-      <speciesReference species="PROTON_CCO__45__IN" stoichiometry="4"/>
+      <speciesReference species="Plastocyanin__45__Reduced_c" stoichiometry="2"/>
+      <speciesReference species="PROTON_c" stoichiometry="4"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -1584,12 +1410,12 @@
       </notes>
    <listOfReactants>
       <speciesReference species="Light_c" stoichiometry="1"/>
-      <speciesReference species="Plastocyanin__45__Reduced_CCO__45__IN" stoichiometry="1"/>
-      <speciesReference species="Oxidized__45__ferredoxins_CCO__45__OUT" stoichiometry="1"/>
+      <speciesReference species="Plastocyanin__45__Reduced_c" stoichiometry="1"/>
+      <speciesReference species="Oxidized__45__ferredoxins_c" stoichiometry="1"/>
    </listOfReactants>
    <listOfProducts>
-      <speciesReference species="Oxidized__45__Plastocyanins_CCO__45__IN" stoichiometry="1"/>
-      <speciesReference species="Reduced__45__ferredoxins_CCO__45__OUT" stoichiometry="1"/>
+      <speciesReference species="Oxidized__45__Plastocyanins_c" stoichiometry="1"/>
+      <speciesReference species="Reduced__45__ferredoxins_c" stoichiometry="1"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -2022,11 +1848,11 @@
       </notes>
    <listOfReactants>
       <speciesReference species="ETR__45__Quinones_c" stoichiometry="1"/>
-      <speciesReference species="GLYCEROL__45__3P_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="GLYCEROL__45__3P_c" stoichiometry="1"/>
    </listOfReactants>
    <listOfProducts>
       <speciesReference species="ETR__45__Quinols_c" stoichiometry="1"/>
-      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_CCO__45__IN" stoichiometry="1"/>
+      <speciesReference species="DIHYDROXY__45__ACETONE__45__PHOSPHATE_c" stoichiometry="1"/>
    </listOfProducts>
 		<kineticLaw>
 			<math xmlns="http://www.w3.org/1998/Math/MathML">
