@@ -1,0 +1,38 @@
+ID	Name	Matches	Gibbs-0	
+FUMHYDR-RXN	(<i>S</i>)-malate  &larr;  fumarate + H<sub>2</sub>O	PWY1FV1-3	0.6130066	
+MALATE-DEH-RXN	(<i>S</i>)-malate + NAD<sup>+</sup>  &harr;  oxaloacetate + NADH + H<SUP>+</SUP>	PWY1FV1-3	4.461792	
+2OXOGLUTARATEDEH-RXN	2-oxoglutarate + coenzyme A + NAD<sup>+</sup>  &rarr;  succinyl-CoA + CO<SUB>2</SUB> + NADH	PWY1FV1-3	-11.366394	
+RXN-7774	2-oxoglutarate + H<SUP>+</SUP>  &rarr;  succinate semialdehyde + CO<SUB>2</SUB>	PWY1FV1-3	-2.1417694	
+RXN-15513	2-phospho-D-glycerate  &harr;  3-phospho-D-glycerate	PWY1FV1-3	-1.3200073	
+3PGAREARR-RXN	2-phospho-D-glycerate  &harr;  3-phospho-D-glycerate	PWY1FV1-3	-1.3200073	
+2PGADEHYDRAT-RXN	2-phospho-D-glycerate  &harr;  phospho<i>enol</i>pyruvate + H<sub>2</sub>O	PWY1FV1-3	-0.18701172	
+PHOSGLYPHOS-RXN	3-phospho-D-glycerate + ATP  &harr;  3-phospho-D-glyceroyl-phosphate + ADP	PWY1FV1-3	-7.51001	
+6PGLUCONOLACT-RXN	6-phospho D-glucono-1,5-lactone + H<sub>2</sub>O  &rarr;  D-gluconate 6-phosphate + H<SUP>+</SUP>	PWY1FV1-3	-7.355438	
+ACONITATEHYDR-RXN	<i>cis</i>-aconitate + H<sub>2</sub>O  &harr;  D-<i>threo</i>-isocitrate	PWY1FV1-3	-3.1329956	
+RXN0-1132	a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-dihydrolipoyl-L-lysine + NAD<sup>+</sup>  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + NADH + H<SUP>+</SUP>	PWY1FV1-3	19.404053	
+RXN0-1133	acetyl-CoA + a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-dihydrolipoyl-L-lysine  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-acetyldihydrolipoyl-L-lysine + coenzyme A	PWY1FV1-3	-20.542236	
+MALSYN-RXN	acetyl-CoA + glyoxylate + H<sub>2</sub>O  &rarr;  (<i>S</i>)-malate + coenzyme A + H<SUP>+</SUP>	PWY1FV1-3	-9.251221	
+CITSYN-RXN	acetyl-CoA + oxaloacetate + H<sub>2</sub>O  &rarr;  citrate + coenzyme A + H<SUP>+</SUP>	PWY1FV1-3	-10.515259	
+6PFRUCTPHOS-RXN	ATP + &beta;-D-fructofuranose 6-phosphate  &rarr;  ADP + fructose 1,6-bisphosphate + H<SUP>+</SUP>	PWY1FV1-3	-14.492371	
+ACONITATEDEHYDR-RXN	citrate  &harr;  <i>cis</i>-aconitate + H<sub>2</sub>O	PWY1FV1-3	3.3529968	
+ISOCIT-CLEAV-RXN	D-<i>threo</i>-isocitrate  &rarr;  glyoxylate + succinate	PWY1FV1-3	3.2682343	
+ISOCITRATE-DEHYDROGENASE-NAD+-RXN	D-<i>threo</i>-isocitrate + NAD<sup>+</sup>  &rarr;  2-oxoglutarate + CO<SUB>2</SUB> + NADH	PWY1FV1-3	1.6241455	
+ISOCITDEH-RXN	D-<i>threo</i>-isocitrate + NADP<sup>+</sup>  &harr;  2-oxoglutarate + CO<SUB>2</SUB> + NADPH	PWY1FV1-3	0.3758545	
+2TRANSKETO-RXN	D-erythrose 4-phosphate + D-xylulose 5-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate + D-glyceraldehyde 3-phosphate	PWY1FV1-3	3.959961	
+RXN-9952	D-gluconate 6-phosphate + NADP<sup>+</sup>  &rarr;  D-ribulose 5-phosphate + CO<SUB>2</SUB> + NADPH	PWY1FV1-3	-1.3841553	
+PGLUCISOM-RXN	D-glucopyranose 6-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate	PWY1FV1-3	1.3800049	
+GLU6PDEHYDROG-RXN	D-glucopyranose 6-phosphate + NADP<sup>+</sup>  &rarr;  6-phospho D-glucono-1,5-lactone + NADPH + H<SUP>+</SUP>	PWY1FV1-3	-5.9264526	
+TRIOSEPISOMERIZATION-RXN	D-glyceraldehyde 3-phosphate  &harr;  glycerone phosphate	PWY1FV1-3	-1.8299866	
+GAPOXNPHOSPHN-RXN	D-glyceraldehyde 3-phosphate + NAD<sup>+</sup> + phosphate  &harr;  3-phospho-D-glyceroyl-phosphate + NADH + H<SUP>+</SUP>	PWY1FV1-3	-15.19458	
+RIB5PISOM-RXN	D-ribose 5-phosphate  &harr;  D-ribulose 5-phosphate	PWY1FV1-3	-6.130005	
+RIBULP3EPIM-RXN	D-ribulose 5-phosphate  &harr;  D-xylulose 5-phosphate	PWY1FV1-3	0.0	
+TRANSALDOL-RXN	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  &harr;  &beta;-D-fructofuranose 6-phosphate + D-erythrose 4-phosphate	PWY1FV1-3	-2.920044	
+1TRANSKETO-RXN	D-sedoheptulose 7-phosphate + D-glyceraldehyde 3-phosphate  &harr;  D-ribose 5-phosphate + D-xylulose 5-phosphate	PWY1FV1-3	1.2300415	
+F16ALDOLASE-RXN	fructose 1,6-bisphosphate  &harr;  glycerone phosphate + D-glyceraldehyde 3-phosphate	PWY1FV1-3	8.226501	
+F16BDEPHOS-RXN	fructose 1,6-bisphosphate + H<sub>2</sub>O  &rarr;  &beta;-D-fructofuranose 6-phosphate + phosphate	PWY1FV1-3	6.8935547	
+RXN0-1134	pyruvate + a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + H<SUP>+</SUP>  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-acetyldihydrolipoyl-L-lysine + CO<SUB>2</SUB>	PWY1FV1-3	-49.93036	
+PEPDEPHOS-RXN	pyruvate + ATP  &larr;  phospho<i>enol</i>pyruvate + ADP + H<SUP>+</SUP>	PWY1FV1-3	-2.234192	
+PEPSYNTH-RXN	pyruvate + ATP + H<sub>2</sub>O  &rarr;  phospho<i>enol</i>pyruvate + AMP + phosphate + 2 H<SUP>+</SUP>	PWY1FV1-3	-9.577148	
+SUCCCOASYN-RXN	succinate + ATP + coenzyme A  &harr;  succinyl-CoA + ADP + phosphate	PWY1FV1-3	-1.0540771	
+SUCCSEMIALDDEHYDROG-RXN	succinate semialdehyde + NADP<sup>+</sup> + H<sub>2</sub>O  &rarr;  succinate + NADPH + 2 H<SUP>+</SUP>	PWY1FV1-3	-17.0177	
+RXN-14971	succinate<SUB>[in]</SUB> + an electron-transfer quinone<SUB>[membrane]</SUB>  &rarr;  fumarate<SUB>[in]</SUB> + an electron-transfer quinol<SUB>[membrane]</SUB>	PWY1FV1-3	22.757736	
